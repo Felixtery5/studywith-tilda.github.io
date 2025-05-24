@@ -1,11 +1,11 @@
 ---
 layout: post
-title: How to bla bla...
+title: How to learn vocab efficiently
 subtitle: 
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [Tilda, homepage]
+tags: [Vocab]
 author: Tilda Park
 ---
 
