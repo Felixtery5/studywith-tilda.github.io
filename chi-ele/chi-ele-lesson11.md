@@ -21,36 +21,36 @@ permalink: /chi-ele/chi-ele-lesson11/
   <div class="vocab-card" style="display:block">
     <p><strong>篮球 lánqiú</strong> <audio controls><source src="audio1.mp3" type="audio/mpeg"></audio></p>
     <div style="text-align:center;">
-      <button onclick="switchCard('vocab', -1)">&lt; (back)</button>
+      <button onclick="switchCard('vocab', -1)">&lt; BACK</button>
       <img src="image1.png" alt="词汇图" width="100">
-      <button onclick="switchCard('vocab', 1)">(next) &gt;</button>
+      <button onclick="switchCard('vocab', 1)">NEXT &gt;</button>
     </div>
     <p><strong>Ex:</strong> 他会打篮球。</p>
   </div>
   <div class="vocab-card" style="display:none">
     <p><strong>足球 zúqiú</strong> <audio controls><source src="audio1.mp3" type="audio/mpeg"></audio></p>
     <div style="text-align:center;">
-      <button onclick="switchCard('vocab', -1)">&lt; (back)</button>
+      <button onclick="switchCard('vocab', -1)">&lt; BACK</button>
       <img src="image1.png" alt="词汇图" width="100">
-      <button onclick="switchCard('vocab', 1)">(next) &gt;</button>
+      <button onclick="switchCard('vocab', 1)">NEXT &gt;</button>
     </div>
     <p><strong>Ex:</strong> 他会踢足球。</p>
   </div>
   <div class="vocab-card" style="display:none">
     <p><strong>乒乓球 pīngpāngqiú</strong> <audio controls><source src="audio1.mp3" type="audio/mpeg"></audio></p>
     <div style="text-align:center;">
-      <button onclick="switchCard('vocab', -1)">&lt; (back)</button>
+      <button onclick="switchCard('vocab', -1)">&lt; BACK</button>
       <img src="image1.png" alt="词汇图" width="100">
-      <button onclick="switchCard('vocab', 1)">(next) &gt;</button>
+      <button onclick="switchCard('vocab', 1)">NEXT &gt;</button>
     </div>
     <p><strong>Ex:</strong> 他会乒乓球。</p>
   </div>
   <div class="vocab-card" style="display:none">
     <p><strong>羽毛球 yǔmáoqiú</strong> <audio controls><source src="audio1.mp3" type="audio/mpeg"></audio></p>
     <div style="text-align:center;">
-      <button onclick="switchCard('vocab', -1)">&lt; (back)</button>
+      <button onclick="switchCard('vocab', -1)">&lt; BACK</button>
       <img src="image1.png" alt="词汇图" width="100">
-      <button onclick="switchCard('vocab', 1)">(next) &gt;</button>
+      <button onclick="switchCard('vocab', 1)">NEXT &gt;</button>
     </div>
     <p><strong>Ex:</strong> 他会打羽毛球。</p>
   </div>
@@ -58,7 +58,6 @@ permalink: /chi-ele/chi-ele-lesson11/
 
 <div class="lesson-section" id="practice1" style="display:none">
   <div class="vocab-card practice-card" style="display:block">
-    <h2>生词练习</h2>
     <p>根据图片和音频填写正确的生词：</p>
     <div class="practice-question">
       <img src="practice1_img1.png" alt="练习图1" width="120">
@@ -66,52 +65,56 @@ permalink: /chi-ele/chi-ele-lesson11/
       <input type="text" placeholder="填写生词"><button onclick="checkAnswer(this, '篮球')">提交</button><span></span>
     </div>
     <div style="text-align:center;">
-      <button onclick="switchCard('practice1', -1)">&lt; (back)</button>
-      <button onclick="switchCard('practice1', 1)">(next) &gt;</button>
+      <button onclick="switchCard('practice1', -1)">&lt; BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT &gt;</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
     <div class="practice-question">
       <img src="practice1_img2.png" alt="练习图2" width="120">
       <audio controls><source src="practice1_audio2.mp3" type="audio/mpeg"></audio>
       <input type="text" placeholder="填写生词"><button onclick="checkAnswer(this, '游泳')">提交</button><span></span>
     </div>
     <div style="text-align:center;">
-      <button onclick="switchCard('practice1', -1)">&lt; (back)</button>
-      <button onclick="switchCard('practice1', 1)">(next) &gt;</button>
+      <button onclick="switchCard('practice1', -1)">&lt; BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT &gt;</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
     <div class="practice-question">
       <img src="practice1_img3.png" alt="练习图3" width="120">
       <audio controls><source src="practice1_audio3.mp3" type="audio/mpeg"></audio>
       <input type="text" placeholder="填写生词"><button onclick="checkAnswer(this, '踢足球')">提交</button><span></span>
     </div>
     <div style="text-align:center;">
-      <button onclick="switchCard('practice1', -1)">&lt; (back)</button>
-      <button onclick="switchCard('practice1', 1)">(next) &gt;</button>
+      <button onclick="switchCard('practice1', -1)">&lt; BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT &gt;</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
     <div class="practice-question">
       <img src="practice1_img4.png" alt="练习图4" width="120">
       <audio controls><source src="practice1_audio4.mp3" type="audio/mpeg"></audio>
       <input type="text" placeholder="填写生词"><button onclick="checkAnswer(this, '唱歌')">提交</button><span></span>
     </div>
     <div style="text-align:center;">
-      <button onclick="switchCard('practice1', -1)">&lt; (back)</button>
-      <button onclick="switchCard('practice1', 1)">(next) &gt;</button>
+      <button onclick="switchCard('practice1', -1)">&lt; BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT &gt;</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
     <div class="practice-question">
       <img src="practice1_img5.png" alt="练习图5" width="120">
       <audio controls><source src="practice1_audio5.mp3" type="audio/mpeg"></audio>
       <input type="text" placeholder="填写生词"><button onclick="checkAnswer(this, '跑步')">提交</button><span></span>
     </div>
     <div style="text-align:center;">
-      <button onclick="switchCard('practice1', -1)">&lt; (back)</button>
-      <button onclick="switchCard('practice1', 1)">(next) &gt;</button>
+      <button onclick="switchCard('practice1', -1)">&lt; BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT &gt;</button>
     </div>
   </div>
 </div>
