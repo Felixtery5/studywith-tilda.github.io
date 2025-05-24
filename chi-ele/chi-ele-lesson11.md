@@ -21,7 +21,7 @@ permalink: /chi-ele/chi-ele-lesson11/
 <!-- 生词区 -->
 <div class="lesson-section" id="vocab">
   <div class="vocab-card" style="display:block">
-    <p><strong>篮球 lánqiú</strong> <audio controls><source src="audio1.mp3" type="audio/mpeg"></audio></p>
+    <p><h2>篮球 lánqiú</h2> <audio controls><source src="audio1.mp3" type="audio/mpeg"></audio></p>
     <p><strong>Ex:</strong> 他会打篮球。</p>
     <div class="nav-btns">
       <button onclick="switchCard('vocab', -1)">BACK</button>
