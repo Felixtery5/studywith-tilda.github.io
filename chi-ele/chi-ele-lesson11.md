@@ -21,14 +21,23 @@ permalink: /chi-ele/chi-ele-lesson11/
 <!-- 生词区 -->
 <div class="lesson-section" id="vocab">
   <div class="vocab-card" style="display:block">
-    <div class="nav-btns">
-      <img src="chi-ele/lesson11/vocab/lanqiu.jpg" alt="篮球" width="120">
+    <!-- 词汇图片，居中 -->
+    <div class="nav-btns" style="text-align: center;">
+      <img 
+        src="/chi-ele/lesson11/vocab/lanqiu.jpg" 
+        alt="篮球" 
+        width="120"
+      >
     </div>
-    <p></p><audio controls><source src="audio1.mp3" type="audio/mpeg"></audio></p>
+    <!-- 音频 -->
+    <audio controls style="display: block; margin: 10px auto;">
+      <source src="audio1.mp3" type="audio/mpeg">
+    </audio>
+    <!-- 示例句 -->
     <p><strong>Ex:</strong> 他会打篮球。</p>
-    <div class="nav-btns">
+    <!-- 翻页按钮 -->
+    <div class="nav-btns" style="text-align: center; margin-top: 15px;">
       <button onclick="switchCard('vocab', -1)">BACK</button>
-      <img src="image1.png" alt="篮球" width="100">
       <button onclick="switchCard('vocab', 1)">NEXT</button>
     </div>
   </div>
