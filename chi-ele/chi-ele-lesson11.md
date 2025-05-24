@@ -1,0 +1,84 @@
+---
+layout: page
+title: "Lesson 11"
+permalink: /chi-ele/chi-ele-lesson11/
+---
+
+<div class="lesson-nav">
+  <a href="#vocab">生词</a> |
+  <a href="#practice1">练习</a> |
+  <a href="#grammar">语言点</a> |
+  <a href="#practice2">练习</a> |
+  <a href="#listening">视听说</a> |
+  <a href="#practice3">练习</a> |
+  <a href="#culture">文化体验</a> |
+  <a href="#homework">作业</a>
+</div>
+
+<hr>
+
+<section id="vocab">
+  <h2>生词</h2>
+  <div class="vocab-card">
+    <p><strong>生词 1</strong> <audio controls><source src="audio1.mp3" type="audio/mpeg">[音频标签]</audio></p>
+    <div style="text-align:center;">
+      <button>&lt; (back)</button>
+      <img src="image1.png" alt="词汇图" width="100">
+      <button>(next) &gt;</button>
+    </div>
+    <p><strong>Ex:</strong> 他会打篮球。</p>
+  </div>
+</section>
+
+<section id="practice1">
+  <h2>生词练习</h2>
+  <p>根据图片和音频填写正确的生词：</p>
+  <div class="practice-question">
+    <img src="practice1_img.png" alt="练习图" width="120">
+    <audio controls><source src="practice1_audio.mp3" type="audio/mpeg"></audio>
+    <input type="text" placeholder="填写生词">
+    <button onclick="checkAnswer()">提交</button>
+    <span id="result"></span>
+  </div>
+</section>
+
+<script>
+function checkAnswer() {
+  const input = document.querySelector('input').value.trim();
+  const result = document.getElementById('result');
+  const correct = '篮球'; // ví dụ đáp án đúng
+  if (input === correct) {
+    result.textContent = '✅';
+  } else {
+    result.textContent = '❎';
+  }
+}
+</script>
+
+<style>
+.lesson-nav {
+  background-color: #eef5fa;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+.lesson-nav a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #2b4a9a;
+}
+.vocab-card {
+  border: 2px solid #073642;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.practice-question {
+  margin-top: 15px;
+}
+input {
+  margin: 5px;
+  padding: 5px;
+}
+</style>
