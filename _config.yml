@@ -22,8 +22,10 @@ author: Tilda Park
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Mandarin Chinese: "https://beautifuljekyll.com"
+    - English: 
+    - Japanese:
+    - Korean:
   Author's home: "https://deanattali.com"
 
 ################
