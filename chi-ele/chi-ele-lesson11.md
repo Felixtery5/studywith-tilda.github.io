@@ -21,7 +21,9 @@ permalink: /chi-ele/chi-ele-lesson11/
 <!-- 生词区 -->
 <div class="lesson-section" id="vocab">
   <div class="vocab-card" style="display:block">
-    <img src="chi-ele/lesson11/vocab/lanqiu.jpg" width="120">
+    <div class="nav-btns">
+      <img src="chi-ele/lesson11/vocab/lanqiu.jpg" alt="篮球" width="120">
+    </div>
     <p></p><audio controls><source src="audio1.mp3" type="audio/mpeg"></audio></p>
     <p><strong>Ex:</strong> 他会打篮球。</p>
     <div class="nav-btns">
