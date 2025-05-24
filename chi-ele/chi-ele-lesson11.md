@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Lesson 11"
+title: Lesson 11
+subtitle: 你会打篮球吗？
 permalink: /chi-ele/chi-ele-lesson11/
 ---
 
@@ -57,64 +58,159 @@ permalink: /chi-ele/chi-ele-lesson11/
 </div>
 
 <div class="lesson-section" id="practice1" style="display:none">
+  <!-- 卡片 1 -->
   <div class="vocab-card practice-card" style="display:block">
     <p>根据图片和音频填写正确的生词：</p>
     <div class="practice-question">
       <img src="practice1_img1.png" alt="练习图1" width="120">
-      <audio controls><source src="practice1_audio1.mp3" type="audio/mpeg"></audio>
-      <input type="text" placeholder="填写生词"><button onclick="checkAnswer(this, '篮球')">提交</button><span></span>
+      <audio controls>
+        <source src="practice1_audio1.mp3" type="audio/mpeg">
+      </audio>
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="篮球"
+        onkeydown="if (event.key === 'Enter') checkAnswer(this.nextElementSibling, this.dataset.answer)"
+      >
+      <button
+        type="button"
+        onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)"
+      >SUBMIT</button>
+      <span class="feedback"></span>
     </div>
     <div style="text-align:center;">
-      <button onclick="switchCard('practice1', -1)">&lt; BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT &gt;</button>
+      <button type="button" onclick="switchCard('practice1', -1)">BACK</button>
+      <button type="button" onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
+
+  <!-- 卡片 2 -->
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频填写正确的生词：</p>
     <div class="practice-question">
       <img src="practice1_img2.png" alt="练习图2" width="120">
-      <audio controls><source src="practice1_audio2.mp3" type="audio/mpeg"></audio>
-      <input type="text" placeholder="填写生词"><button onclick="checkAnswer(this, '游泳')">提交</button><span></span>
+      <audio controls>
+        <source src="practice1_audio2.mp3" type="audio/mpeg">
+      </audio>
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="游泳"
+        onkeydown="if (event.key === 'Enter') checkAnswer(this.nextElementSibling, this.dataset.answer)"
+      >
+      <button
+        type="button"
+        onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)"
+      >SUBMIT</button>
+      <span class="feedback"></span>
     </div>
     <div style="text-align:center;">
-      <button onclick="switchCard('practice1', -1)">&lt; BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT &gt;</button>
+      <button type="button" onclick="switchCard('practice1', -1)">BACK</button>
+      <button type="button" onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
-  <div class="vocab-card practice-card" style="display:none">
+
+  <!-- 卡片 3 -->
+  <div class="vocab-card practice-card" style="display:block">
     <p>根据图片和音频填写正确的生词：</p>
     <div class="practice-question">
-      <img src="practice1_img3.png" alt="练习图3" width="120">
-      <audio controls><source src="practice1_audio3.mp3" type="audio/mpeg"></audio>
-      <input type="text" placeholder="填写生词"><button onclick="checkAnswer(this, '踢足球')">提交</button><span></span>
+      <img src="practice1_img3.png" alt="练习图1" width="120">
+      <audio controls>
+        <source src="practice1_audio3.mp3" type="audio/mpeg">
+      </audio>
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="篮球"
+        onkeydown="if (event.key === 'Enter') checkAnswer(this.nextElementSibling, this.dataset.answer)"
+      >
+      <button
+        type="button"
+        onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)"
+      >SUBMIT</button>
+      <span class="feedback"></span>
     </div>
     <div style="text-align:center;">
-      <button onclick="switchCard('practice1', -1)">&lt; BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT &gt;</button>
+      <button type="button" onclick="switchCard('practice1', -1)">BACK</button>
+      <button type="button" onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
+
+  <!-- 卡片 4 -->
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频填写正确的生词：</p>
     <div class="practice-question">
       <img src="practice1_img4.png" alt="练习图4" width="120">
-      <audio controls><source src="practice1_audio4.mp3" type="audio/mpeg"></audio>
-      <input type="text" placeholder="填写生词"><button onclick="checkAnswer(this, '唱歌')">提交</button><span></span>
+      <audio controls>
+        <source src="practice1_audio4.mp3" type="audio/mpeg">
+      </audio>
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="游泳"
+        onkeydown="if (event.key === 'Enter') checkAnswer(this.nextElementSibling, this.dataset.answer)"
+      >
+      <button
+        type="button"
+        onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)"
+      >SUBMIT</button>
+      <span class="feedback"></span>
     </div>
     <div style="text-align:center;">
-      <button onclick="switchCard('practice1', -1)">&lt; BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT &gt;</button>
+      <button type="button" onclick="switchCard('practice1', -1)">BACK</button>
+      <button type="button" onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
-  <div class="vocab-card practice-card" style="display:none">
+
+  <!-- 卡片 5 -->
+  <div class="vocab-card practice-card" style="display:block">
     <p>根据图片和音频填写正确的生词：</p>
     <div class="practice-question">
       <img src="practice1_img5.png" alt="练习图5" width="120">
-      <audio controls><source src="practice1_audio5.mp3" type="audio/mpeg"></audio>
-      <input type="text" placeholder="填写生词"><button onclick="checkAnswer(this, '跑步')">提交</button><span></span>
+      <audio controls>
+        <source src="practice1_audio5.mp3" type="audio/mpeg">
+      </audio>
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="篮球"
+        onkeydown="if (event.key === 'Enter') checkAnswer(this.nextElementSibling, this.dataset.answer)"
+      >
+      <button
+        type="button"
+        onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)"
+      >SUBMIT</button>
+      <span class="feedback"></span>
     </div>
     <div style="text-align:center;">
-      <button onclick="switchCard('practice1', -1)">&lt; BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT &gt;</button>
+      <button type="button" onclick="switchCard('practice1', -1)">BACK</button>
+      <button type="button" onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+
+  <!-- 卡片 6 -->
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
+    <div class="practice-question">
+      <img src="practice1_img6.png" alt="练习图6" width="120">
+      <audio controls>
+        <source src="practice1_audio6.mp3" type="audio/mpeg">
+      </audio>
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="游泳"
+        onkeydown="if (event.key === 'Enter') checkAnswer(this.nextElementSibling, this.dataset.answer)"
+      >
+      <button
+        type="button"
+        onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)"
+      >SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div style="text-align:center;">
+      <button type="button" onclick="switchCard('practice1', -1)">BACK</button>
+      <button type="button" onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
 </div>
@@ -143,10 +239,18 @@ function resetCards(sectionId) {
 }
 
 function checkAnswer(button, correct) {
-  const input = button.previousElementSibling.value.trim();
+  const inputEl = button.previousElementSibling;
+  const userInput = inputEl.value.trim();
   const resultSpan = button.nextElementSibling;
-  resultSpan.textContent = input === correct ? '✅' : '❎';
-}
+  if (userAnswer === correct) {
+    feedbackEl.textContent = '✔️ 正确！';
+    feedbackEl.style.color = 'green';
+    }
+  else {
+    feedbackEl.textContent = '❌ 错误，再试一次';
+    feedbackEl.style.color = 'red';
+    }
+  }
 </script>
 
 <style>
