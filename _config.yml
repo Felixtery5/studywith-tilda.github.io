@@ -21,10 +21,12 @@ author: Tilda Park
 
 navbar-links:
   About Me: "aboutme"
-  Chinese: "https://beautifuljekyll.com"
-  English: 
-  Japanese:
-  Korean:
+  Course:
+    - Chinese: "https://beautifuljekyll.com"
+    - English: 
+    - Japanese:
+    - Korean:
+  Tilda-log:
 
 ################
 # --- Logo --- #
