@@ -21,7 +21,7 @@ author: Tilda Park
 
 navbar-links:
   About Me: "aboutme"
-  Course:
+  Courses:
     - Chinese: "chinese"
     - English: "english"
     - Japanese: "japanese"
