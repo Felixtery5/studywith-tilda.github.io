@@ -238,10 +238,10 @@ permalink: /chi-ele/chi-ele-lesson11/
     const resultSpan = button.nextElementSibling;
     const userInput  = inputEl.value.trim();
     if (userInput === correct) {
-      resultSpan.textContent = '✔️';
+      resultSpan.textContent = '✅ 正确！';
       resultSpan.style.color = 'green';
     } else {
-      resultSpan.textContent = '❌';
+      resultSpan.textContent = '❌ 错误，再试一次。';
       resultSpan.style.color = 'red';
     }
   }
