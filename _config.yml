@@ -22,10 +22,10 @@ author: Tilda Park
 navbar-links:
   About Me: "aboutme"
   Course:
-    - Chinese: "comingsoon"
-    - English: "comingsoon"
-    - Japanese: "comingsoon"
-    - Korean: "comingsoon"
+    - Chinese: "chinese"
+    - English: "english"
+    - Japanese: "japanese"
+    - Korean: "korean"
   Tilda-log:
 
 ################
