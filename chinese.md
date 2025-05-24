@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Chinese Course
-subtitle: Further content is upcoming in the near future.
+subtitle: Learning Chinese with Tilda
 ---
 
 Find out Chinese course here.
