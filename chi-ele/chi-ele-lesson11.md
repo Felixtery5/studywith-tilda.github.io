@@ -19,7 +19,7 @@ permalink: /chi-ele/chi-ele-lesson11/
   </div>
   <!-- 小屏下显示的下拉菜单 -->
   <select class="nav-select" onchange="selectSection(this.value)">
-    <option value="">三</option>
+    #<option value="">三</option>
     <option value="vocab">生词</option>
     <option value="practice1">练习1</option>
     <option value="grammar">语言点</option>
