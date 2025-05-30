@@ -19,12 +19,13 @@ permalink: /chi-ele/chi-ele-lesson11/
   </div>
   <!-- 小屏下显示的下拉菜单 -->
   <select class="nav-select" onchange="selectSection(this.value)">
+    <option value=""> </option>
     <option value="vocab">生词</option>
-    <option value="practice1">练习1</option>
+    <option value="practice1">生词练习</option>
     <option value="grammar">语言点</option>
-    <option value="practice2">练习2</option>
+    <option value="practice2">语言点练习</option>
     <option value="listening">视听说</option>
-    <option value="practice3">练习3</option>
+    <option value="practice3">视听说练习</option>
     <option value="culture">文化体验</option>
     <option value="homework">作业</option>
   </select>
@@ -39,47 +40,55 @@ permalink: /chi-ele/chi-ele-lesson11/
     <!-- 词汇图片，居中 -->
     <div class="nav-btns" style="text-align: center;">
       <img 
-        src="/chi-ele/lesson11/vocab/lanqiu.jpg" 
+        src="/chi-ele/lesson11/vocab/1YunDong.jpg" 
         alt="篮球" 
-        width="120"
+        width="100"
+      >
+    </div>
+    <div class="nav-btns" style="text-align: center;">
+      <img 
+        src="/chi-ele/lesson11/vocab/1YunDong-photo.jpg" 
+        alt="篮球" 
+        width="150"
       >
     </div>
     <!-- 音频 -->
     <audio controls style="display: block; margin: 10px auto;">
-      <source src="audio1.mp3" type="audio/mpeg">
+      <source src="/chi-ele/lesson11/vocab/1YunDong.m4a" type="audio/mpeg">
     </audio>
     <!-- 示例句 -->
-    <p><strong>Ex:</strong> 他会打篮球。</p>
+    <p><strong>例:</strong> 我喜欢运动。</p>
     <!-- 翻页按钮 -->
     <div class="nav-btns" style="text-align: center; margin-top: 15px;">
       <button onclick="switchCard('vocab', -1)">BACK</button>
       <button onclick="switchCard('vocab', 1)">NEXT</button>
     </div>
   </div>
-  <div class="vocab-card" style="display:none">
-    <p><strong>足球 zúqiú</strong> <audio controls><source src="audio2.mp3" type="audio/mpeg"></audio></p>
-    <p><strong>Ex:</strong> 他会踢足球。</p>
-    <div class="nav-btns">
-      <button onclick="switchCard('vocab', -1)">BACK</button>
-      <img src="image2.png" alt="足球" width="100">
-      <button onclick="switchCard('vocab', 1)">NEXT</button>
+  <div class="vocab-card" style="display:block">
+    <!-- 词汇图片，居中 -->
+    <div class="nav-btns" style="text-align: center;">
+      <img 
+        src="/chi-ele/lesson11/vocab/2LanQiu.jpg" 
+        alt="篮球" 
+        width="100"
+      >
     </div>
-  </div>
-  <div class="vocab-card" style="display:none">
-    <p><strong>乒乓球 pīngpāngqiú</strong> <audio controls><source src="audio3.mp3" type="audio/mpeg"></audio></p>
-    <p><strong>Ex:</strong> 他会打乒乓球。</p>
-    <div class="nav-btns">
-      <button onclick="switchCard('vocab', -1)">BACK</button>
-      <img src="image3.png" alt="乒乓球" width="100">
-      <button onclick="switchCard('vocab', 1)">NEXT</button>
+    <div class="nav-btns" style="text-align: center;">
+      <img 
+        src="/chi-ele/lesson11/vocab/2LanQiu-photo.jpg" 
+        alt="篮球" 
+        width="150"
+      >
     </div>
-  </div>
-  <div class="vocab-card" style="display:none">
-    <p><strong>羽毛球 yǔmáoqiú</strong> <audio controls><source src="audio4.mp3" type="audio/mpeg"></audio></p>
-    <p><strong>Ex:</strong> 他会打羽毛球。</p>
-    <div class="nav-btns">
+    <!-- 音频 -->
+    <audio controls style="display: block; margin: 10px auto;">
+      <source src="/chi-ele/lesson11/vocab/2LanQiu.m4a" type="audio/mpeg">
+    </audio>
+    <!-- 示例句 -->
+    <p><strong>例:</strong> 我喜欢篮球。</p>
+    <!-- 翻页按钮 -->
+    <div class="nav-btns" style="text-align: center; margin-top: 15px;">
       <button onclick="switchCard('vocab', -1)">BACK</button>
-      <img src="image4.png" alt="羽毛球" width="100">
       <button onclick="switchCard('vocab', 1)">NEXT</button>
     </div>
   </div>
@@ -240,6 +249,9 @@ permalink: /chi-ele/chi-ele-lesson11/
   </div>
 </div>
 
+
+
+
 <script>
   function showSection(id) {
     document.querySelectorAll('.lesson-section').forEach(sec => sec.style.display = 'none');
@@ -347,3 +359,13 @@ input {
   font-weight: bold;
 }
 </style>
+
+<script>
+  // 原有的 showSection, switchCard, checkAnswer …
+
+  function selectSection(value) {
+    if (!value) return;
+    showSection(value);
+    document.querySelector('.nav-select').value = "";
+  }
+</script>
