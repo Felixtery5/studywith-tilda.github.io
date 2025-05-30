@@ -6,14 +6,19 @@ permalink: /chi-ele/chi-ele-lesson11/
 ---
 
 <div class="lesson-nav">
-  <button onclick="showSection('vocab')">生词</button>
-  <button onclick="showSection('practice1')">练习</button>
-  <button onclick="showSection('grammar')">语言点</button>
-  <button onclick="showSection('practice2')">练习</button>
-  <button onclick="showSection('listening')">视听说</button>
-  <button onclick="showSection('practice3')">练习</button>
-  <button onclick="showSection('culture')">文化体验</button>
-  <button onclick="showSection('homework')">作业</button>
+  <!-- 汉堡按钮，默认隐藏 -->
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  <!-- 按钮容器 -->
+  <div class="nav-items">
+    <button onclick="showSection('vocab')">生词</button>
+    <button onclick="showSection('practice1')">练习</button>
+    <button onclick="showSection('grammar')">语言点</button>
+    <button onclick="showSection('practice2')">练习</button>
+    <button onclick="showSection('listening')">视听说</button>
+    <button onclick="showSection('practice3')">练习</button>
+    <button onclick="showSection('culture')">文化体验</button>
+    <button onclick="showSection('homework')">作业</button>
+  </div>
 </div>
 
 <hr>
@@ -264,9 +269,18 @@ permalink: /chi-ele/chi-ele-lesson11/
   background-color: #eef5fa;
   padding: 10px;
   border-radius: 8px;
-  text-align: center;
-  font-weight: bold;
+  /* 用 flex 布局让按钮一行排列，不换行 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.lesson-nav .nav-items {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto; /* 如果太多可以横向滚动 */
+}
+
 .lesson-nav button {
   margin: 0 8px;
   padding: 6px 12px;
@@ -274,10 +288,38 @@ permalink: /chi-ele/chi-ele-lesson11/
   background: #cce4ff;
   border-radius: 6px;
   cursor: pointer;
+  white-space: nowrap;
 }
+
 .lesson-nav button:hover {
   background: #a3d0ff;
 }
+
+/* 隐藏汉堡按钮 */
+.lesson-nav .menu-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+}
+
+/* 小于 768px 时 */
+@media (max-width: 768px) {
+  /* 隐藏那一串按钮 */
+  .lesson-nav .nav-items {
+    display: none;
+    flex-direction: column;  /* 下拉时纵向排列 */
+    background: #eef5fa;
+    position: absolute;
+    top: 50px; left: 10px; right: 10px;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  /* 显示汉堡按钮 */
+  .lesson-nav .menu-toggle {
+    display: block;
+  }
+}
+
 .vocab-card {
   border: 2px solid #073642;
   padding: 20px;
@@ -304,3 +346,14 @@ input {
   font-weight: bold;
 }
 </style>
+
+<script>
+function toggleMenu() {
+  const nav = document.querySelector('.lesson-nav .nav-items');
+  if (nav.style.display === 'flex') {
+    nav.style.display = 'none';
+  } else {
+    nav.style.display = 'flex';
+  }
+}
+</script>
