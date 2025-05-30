@@ -19,7 +19,6 @@ permalink: /chi-ele/chi-ele-lesson11/
   </div>
   <!-- 小屏下显示的下拉菜单 -->
   <select class="nav-select" onchange="selectSection(this.value)">
-    #<option value="">三</option>
     <option value="vocab">生词</option>
     <option value="practice1">练习1</option>
     <option value="grammar">语言点</option>
@@ -348,13 +347,3 @@ input {
   font-weight: bold;
 }
 </style>
-
-<script>
-function selectSection(value) {
-  if (!value) return;
-  showSection(value);
-  // 可选地，把 select 恢复到 “三”
-  document.querySelector('.nav-select').value = "";
-}
-</script>
-
