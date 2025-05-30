@@ -152,7 +152,7 @@ permalink: /chi-ele/chi-ele-lesson11/
     <!-- 词汇图片，居中 -->
     <div class="nav-btns" style="text-align: center;">
       <img 
-        src="/chi-ele/lesson11/vocab/5PingPangQiujpg" 
+        src="/chi-ele/lesson11/vocab/5PingPangQiujpg.jpg" 
         alt="乒乓球" 
         width="100"
       >
