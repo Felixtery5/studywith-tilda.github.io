@@ -54,7 +54,7 @@ permalink: /chi-ele/chi-ele-lesson11/
     </div>
     <!-- 音频 -->
     <audio controls style="display: block; margin: 10px auto;">
-      <source src="/chi-ele/lesson11/vocab/1YunDong.m4a" type="audio/mpeg">
+      <source src="/chi-ele/lesson11/vocab/1YunDong.m4a" type="audio/mp4">
     </audio>
     <!-- 示例句 -->
     <p><strong>例:</strong> 我喜欢运动。</p>
@@ -64,7 +64,7 @@ permalink: /chi-ele/chi-ele-lesson11/
       <button onclick="switchCard('vocab', 1)">NEXT</button>
     </div>
   </div>
-  <div class="vocab-card" style="display:block">
+  <div class="vocab-card" style="display:none">
     <!-- 词汇图片，居中 -->
     <div class="nav-btns" style="text-align: center;">
       <img 
@@ -82,7 +82,7 @@ permalink: /chi-ele/chi-ele-lesson11/
     </div>
     <!-- 音频 -->
     <audio controls style="display: block; margin: 10px auto;">
-      <source src="/chi-ele/lesson11/vocab/2LanQiu.m4a" type="audio/mpeg">
+      <source src="/chi-ele/lesson11/vocab/2LanQiu.m4a" type="audio/mp4">
     </audio>
     <!-- 示例句 -->
     <p><strong>例:</strong> 我喜欢篮球。</p>
