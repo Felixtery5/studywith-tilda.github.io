@@ -6,8 +6,6 @@ permalink: /chi-ele/chi-ele-lesson11/
 ---
 
 <div class="lesson-nav">
-  <!-- 汉堡按钮，默认隐藏 -->
-  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
   <!-- 按钮容器 -->
   <div class="nav-items">
     <button onclick="showSection('vocab')">生词</button>
@@ -19,7 +17,20 @@ permalink: /chi-ele/chi-ele-lesson11/
     <button onclick="showSection('culture')">文化体验</button>
     <button onclick="showSection('homework')">作业</button>
   </div>
+  <!-- 小屏下显示的下拉菜单 -->
+  <select class="nav-select" onchange="selectSection(this.value)">
+    <option value="">三</option>
+    <option value="vocab">生词</option>
+    <option value="practice1">练习1</option>
+    <option value="grammar">语言点</option>
+    <option value="practice2">练习2</option>
+    <option value="listening">视听说</option>
+    <option value="practice3">练习3</option>
+    <option value="culture">文化体验</option>
+    <option value="homework">作业</option>
+  </select>
 </div>
+
 
 <hr>
 
@@ -269,20 +280,16 @@ permalink: /chi-ele/chi-ele-lesson11/
   background-color: #eef5fa;
   padding: 10px;
   border-radius: 8px;
-  /* 用 flex 布局让按钮一行排列，不换行 */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  text-align: center;                /* 容器文本居中 */
 }
 
 .lesson-nav .nav-items {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto; /* 如果太多可以横向滚动 */
+  display: inline-flex;              /* 居中对齐用 inline-flex */
+  gap: 8px;                          /* 按钮间距 */
+  overflow-x: auto;
 }
 
 .lesson-nav button {
-  margin: 0 8px;
   padding: 6px 12px;
   border: none;
   background: #cce4ff;
@@ -295,28 +302,23 @@ permalink: /chi-ele/chi-ele-lesson11/
   background: #a3d0ff;
 }
 
-/* 隐藏汉堡按钮 */
-.lesson-nav .menu-toggle {
+/* 下拉菜单默认隐藏 */
+.lesson-nav .nav-select {
   display: none;
-  font-size: 24px;
-  background: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #cce4ff;
+  background: #cce4ff;
+  cursor: pointer;
 }
 
-/* 小于 768px 时 */
+/* 小屏幕下的切换 */
 @media (max-width: 768px) {
-  /* 隐藏那一串按钮 */
   .lesson-nav .nav-items {
-    display: none;
-    flex-direction: column;  /* 下拉时纵向排列 */
-    background: #eef5fa;
-    position: absolute;
-    top: 50px; left: 10px; right: 10px;
-    border-radius: 8px;
-    padding: 10px;
+    display: none;                   /* 隐藏按钮 */
   }
-  /* 显示汉堡按钮 */
-  .lesson-nav .menu-toggle {
-    display: block;
+  .lesson-nav .nav-select {
+    display: inline-block;           /* 显示下拉 */
   }
 }
 
@@ -348,12 +350,11 @@ input {
 </style>
 
 <script>
-function toggleMenu() {
-  const nav = document.querySelector('.lesson-nav .nav-items');
-  if (nav.style.display === 'flex') {
-    nav.style.display = 'none';
-  } else {
-    nav.style.display = 'flex';
-  }
+function selectSection(value) {
+  if (!value) return;
+  showSection(value);
+  // 可选地，把 select 恢复到 “三”
+  document.querySelector('.nav-select').value = "";
 }
 </script>
+
