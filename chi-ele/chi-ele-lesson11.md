@@ -372,20 +372,19 @@ permalink: /chi-ele/chi-ele-lesson11/
       <button onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
-
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频填写正确的生词：</p>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/11QiZiXingChe-Photo.jpg" alt="骑自行车" width="150" >
+      <img src="/chi-ele/lesson11/vocab/1YunDong-photo.jpg" alt="骑自行车" width="150" >
       <audio controls style="display: block; margin: 10px auto;">
-        <source src="/chi-ele/lesson11/vocab/11QiZiXingChe.m4a" type="audio/mp4">
+        <source src="/chi-ele/lesson11/vocab/1YunDong.m4a" type="audio/mp4">
       </audio>
     </div>
     <div class="practice-question" style="text-align: center;">
       <input
         type="text"
         placeholder="填写生词"
-        data-answer="骑自行车"
+        data-answer="运动"
         onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
       >
       <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
@@ -398,13 +397,225 @@ permalink: /chi-ele/chi-ele-lesson11/
   </div>
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频填写正确的生词：</p>
-    <div class="practice-question">
-      <img src="practice1_img2.png" alt="练习图2" width="120">
-      <audio controls><source src="practice1_audio2.mp3" type="audio/mpeg"></audio>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/10PaoBu-Photo.jpg" alt="骑自行车" width="150" >
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/10PaoBu.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="跑步"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/6Da-photo.jpg" alt="骑自行车" width="150" >
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/6Da.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="打"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/2LanQiu-photo.jpg" alt="骑自行车" width="150" >
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/2LanQiu.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="篮球"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/9YouYong-Photo.jpg" alt="骑自行车" width="150" >
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/9YouYong.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
       <input
         type="text"
         placeholder="填写生词"
         data-answer="游泳"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/5PingPangQiu-photo.jpg" alt="骑自行车" width="150" >
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/5PingPangQiu.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="乒乓球"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/8Gen-Photo.jpg" alt="骑自行车" width="150" >
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/8Gen.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="踢"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/4WangQiu-photo.jpg" alt="骑自行车" width="150" >
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/4WangQiu.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="网球"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/3PaiQiu-photo.jpg" alt="骑自行车" width="150" >
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/3PaiQiu.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="排球"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/7ZuQiu-photo.jpg" alt="骑自行车" width="150" >
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/7ZuQiu.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="足球"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <!-- 生词练习2 -->
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频填写正确的生词：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/7ZuQiu-photo.jpg" alt="骑自行车" width="150" >
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/7ZuQiu.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写生词"
+        data-answer="足球"
         onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
       >
       <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
