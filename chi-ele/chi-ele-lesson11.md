@@ -1545,6 +1545,7 @@ input {
 
 
 
+
 <script>
 // Global variables
 let mediaRecorder;
@@ -1576,11 +1577,7 @@ async function startRecording(type) {
   try {
     recordingType = type;
     const constraints = {
-      audio: audio: {
-        echoCancellation: true,
-        noiseSuppression: true,
-        sampleRate: 44100
-      },
+      audio: true,
       video: type === 'video' ? { facingMode: "user" } : false
     };
     
@@ -1685,7 +1682,7 @@ function sendRecording() {
   
   // Simulate sending to email
   setTimeout(() => {
-    updateStatus(`Please send your video/recording to [datbg.0702@gmail.com]`);
+    updateStatus(`Recording sent to datbg.0702@gmail.com`);
   }, 2000);
 }
 
