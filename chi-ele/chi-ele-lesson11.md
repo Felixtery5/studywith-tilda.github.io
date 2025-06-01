@@ -1211,6 +1211,36 @@ permalink: /chi-ele/chi-ele-lesson11/
       <button onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
+  <!-- 自由表达 -->
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/YuDuiHua.png" alt="picture" width="500">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <!-- 录制选择按钮 -->
+      <div class="recording-options">
+        <button id="startVideoBtn">🎥 录制视频</button>
+        <button id="startAudioBtn">🎤 录制音频</button>
+      </div>
+      <!-- 视频录制预览 -->
+      <video id="videoPreview" controls style="display:none; max-width:500px; margin:10px auto;"></video>
+      <!-- 音频录制预览 -->
+      <audio id="audioPreview" controls style="display:none; margin:10px auto;"></audio>
+      <!-- 控制按钮 -->
+      <div id="recordingControls" style="display:none;">
+        <button id="stopRecordingBtn">⏹ 停止录制</button>
+        <button id="sendRecordingBtn">✉️ 发送到邮箱</button>
+        <button id="retryRecordingBtn">🔄 重新录制</button>
+      </div>
+      <!-- 状态显示 -->
+      <div id="recordingStatus"></div>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
 </div>
 
 <!-- 视听说 -->
@@ -1513,3 +1543,138 @@ input {
     document.querySelector('.nav-select').value = "";
   }
 </script>
+
+<script>
+// 录制相关变量
+let mediaRecorder;
+let recordedChunks = [];
+let recordingType = '';
+
+document.getElementById('startVideoBtn').addEventListener('click', () => startRecording('video'));
+document.getElementById('startAudioBtn').addEventListener('click', () => startRecording('audio'));
+document.getElementById('stopRecordingBtn').addEventListener('click', stopRecording);
+document.getElementById('sendRecordingBtn').addEventListener('click', sendRecording);
+document.getElementById('retryRecordingBtn').addEventListener('click', resetRecording);
+
+async function startRecording(type) {
+  recordingType = type;
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({
+      video: type === 'video',
+      audio: true
+    });
+    
+    // 设置预览
+    const previewElement = type === 'video' ? 
+      document.getElementById('videoPreview') : 
+      document.getElementById('audioPreview');
+    
+    previewElement.srcObject = stream;
+    previewElement.style.display = 'block';
+    
+    // 隐藏选择按钮，显示控制按钮
+    document.querySelector('.recording-options').style.display = 'none';
+    document.getElementById('recordingControls').style.display = 'block';
+    
+    // 初始化MediaRecorder
+    mediaRecorder = new MediaRecorder(stream);
+    recordedChunks = [];
+    
+    mediaRecorder.ondataavailable = (e) => {
+      if (e.data.size > 0) recordedChunks.push(e.data);
+    };
+    
+    mediaRecorder.start();
+    updateStatus(`正在录制${type === 'video' ? '视频' : '音频'}...`);
+    
+  } catch (err) {
+    updateStatus(`错误: ${err.message}`, 'error');
+  }
+}
+
+function stopRecording() {
+  if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+    mediaRecorder.stop();
+    mediaRecorder.stream.getTracks().forEach(track => track.stop());
+    updateStatus('录制完成！');
+  }
+}
+
+function resetRecording() {
+  recordedChunks = [];
+  document.getElementById('videoPreview').style.display = 'none';
+  document.getElementById('audioPreview').style.display = 'none';
+  document.querySelector('.recording-options').style.display = 'block';
+  document.getElementById('recordingControls').style.display = 'none';
+  updateStatus('');
+}
+
+function sendRecording() {
+  if (recordedChunks.length === 0) {
+    updateStatus('没有可发送的录制内容', 'error');
+    return;
+  }
+
+  const blob = new Blob(recordedChunks, {
+    type: recordingType === 'video' ? 'video/mp4' : 'audio/wav'
+  });
+  
+  // 创建下载链接（实际应用中应该发送到服务器）
+  const formData = new FormData();
+  formData.append('recording', blob, `recording.${recordingType === 'video' ? 'mp4' : 'wav'}`);
+  formData.append('email', 'datbg.0702@gmail.com');
+  
+  // 这里应该是实际的API调用，以下是模拟代码
+  updateStatus('正在发送...');
+  
+  // 模拟发送（实际使用时替换为真实API调用）
+  setTimeout(() => {
+    updateStatus('已发送到 datbg.0702@gmail.com');
+    
+    // 创建临时下载链接（演示用）
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `recording.${recordingType === 'video' ? 'mp4' : 'wav'}`;
+    a.click();
+    
+  }, 2000);
+}
+
+function updateStatus(message, type = 'info') {
+  const statusEl = document.getElementById('recordingStatus');
+  statusEl.textContent = message;
+  statusEl.style.color = type === 'error' ? 'red' : 'green';
+}
+</script>
+
+<style>
+.recording-options {
+  margin: 15px 0;
+}
+
+.recording-options button, #recordingControls button {
+  padding: 8px 15px;
+  margin: 0 5px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#recordingControls button {
+  background: #2196F3;
+}
+
+#stopRecordingBtn {
+  background: #f44336;
+}
+
+#recordingStatus {
+  margin-top: 10px;
+  font-weight: bold;
+  min-height: 20px;
+}
+</style>
