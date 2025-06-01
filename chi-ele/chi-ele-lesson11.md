@@ -1254,7 +1254,7 @@ permalink: /chi-ele/chi-ele-lesson11/
   <div class="vocab-card">
     <!-- 填写文化体验内容 -->
     <div class="practice-question" style="text-align: center;">
-      <video controls style="display: block; margin: 10px auto; max-width: 800px;">
+      <video controls style="display: block; margin: 10px auto; max-width: 555px;">
         <source src="/chi-ele/lesson11/V2WenHua.mp4" type="video/mp4">
         您的浏览器不支持HTML5视频
       </video>
