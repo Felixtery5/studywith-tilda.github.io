@@ -1011,7 +1011,6 @@ permalink: /chi-ele/chi-ele-lesson11/
     </div>
   </div>
   <!-- 又……又…… -->
-  <div class="lesson-section" id="grammar" style="display:none">
   <div class="vocab-card" style="display:block">
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You.png" alt="picture" width="100">
@@ -1071,7 +1070,6 @@ permalink: /chi-ele/chi-ele-lesson11/
       <button onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
-
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
@@ -1102,7 +1100,6 @@ permalink: /chi-ele/chi-ele-lesson11/
       <button onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
-
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
@@ -1133,8 +1130,7 @@ permalink: /chi-ele/chi-ele-lesson11/
       <button onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
-  
-<!-- 又……又…… -->
+  <!-- 又……又…… -->
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
@@ -1155,7 +1151,6 @@ permalink: /chi-ele/chi-ele-lesson11/
       <button onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
-
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
@@ -1186,7 +1181,6 @@ permalink: /chi-ele/chi-ele-lesson11/
       <button onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
-
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
@@ -1257,7 +1251,7 @@ permalink: /chi-ele/chi-ele-lesson11/
 
 <!-- 文化体验 -->
 <div class="lesson-section" id="culture" style="display:none">
-  <div class="vocab-card" style="display:block">
+  <div class="vocab-card">
     <!-- 填写文化体验内容 -->
     <div class="practice-question" style="text-align: center;">
       <video controls style="display: block; margin: 10px auto; max-width: 500px;">
@@ -1270,7 +1264,7 @@ permalink: /chi-ele/chi-ele-lesson11/
 
 <!-- 作业 -->
 <div class="lesson-section" id="homework" style="display:none">
-  <div class="vocab-card" style="display:block">
+  <div class="vocab-card">
     <!-- 填写作业内容 -->
     <p>1. 复习本课学习内容。</p> 
     <p>2. 问问你的朋友/家人喜欢什么运动，会做什么运动？</p> 
