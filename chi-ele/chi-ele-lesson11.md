@@ -1682,7 +1682,7 @@ function sendRecording() {
   
   // Simulate sending to email
   setTimeout(() => {
-    updateStatus(`Recording sent to datbg.0702@gmail.com`);
+    updateStatus(`Please send your video/recording to [datbg.0702@gmail.com]`);
   }, 2000);
 }
 
