@@ -1153,10 +1153,7 @@ document.querySelectorAll('.answer-select').forEach(select => {
   margin-top: 20px;
 }
 .practice-question {
-  display: flex;
-  flex-wrap: wrap;
   margin-top: 10px;
-  justify-content: center;
   align-items: flex-start;
 }
 .nav-btns {
