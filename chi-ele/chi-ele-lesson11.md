@@ -1056,8 +1056,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <span class="feedback"></span>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2')">BACK</button>
+      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1066,8 +1066,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-Q1A1.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2', -1)">BACK</button>
+      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1086,8 +1086,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <span class="feedback"></span>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2', -1)">BACK</button>
+      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1096,8 +1096,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-Q2A2.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2', -1)">BACK</button>
+      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1116,8 +1116,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <span class="feedback"></span>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2', -1)">BACK</button>
+      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1126,8 +1126,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-Q3A3.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2', -1)">BACK</button>
+      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
   <!-- 又……又…… -->
@@ -1137,8 +1137,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q1.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2', -1)">BACK</button>
+      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1147,8 +1147,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q1A1.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2', -1)">BACK</button>
+      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1167,8 +1167,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <span class="feedback"></span>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2', -1)">BACK</button>
+      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1177,8 +1177,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q2A2.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2', -1)">BACK</button>
+      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1197,8 +1197,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <span class="feedback"></span>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2', -1)">BACK</button>
+      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1207,19 +1207,37 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q3A3.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2', -1)">BACK</button>
+      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
-  <!-- 自由表达 -->
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/grammar/YuDuiHua.png" alt="picture" width="500">
     </div>
+    <div class="practice-question" style="text-align: center;">
+      <!-- Recording Options -->
+      <div class="recording-options">
+        <button id="startVideoBtn">🎥 New Video</button>
+        <button id="startAudioBtn">🎤 New Record</button>
+      </div>
+      <!-- Preview Elements -->
+      <video id="videoPreview" controls style="display:none; max-width:500px; margin:10px auto;"></video>
+      <audio id="audioPreview" controls style="display:none; margin:10px auto;"></audio>
+      <!-- Recording Controls -->
+      <div id="recordingControls" style="display:none;">
+        <button id="stopRecordingBtn">⏹ Stop</button>
+        <button id="playRecordingBtn" style="display:none;">▶️ Play</button>
+        <button id="sendRecordingBtn">✉️ Send</button>
+        <button id="retryRecordingBtn">🔄 Redo</button>
+      </div>
+      <!-- Status Display -->
+      <div id="recordingStatus" style="margin-top:10px; min-height:20px;"></div>
+    </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice1', -1)">BACK</button>
-      <button onclick="switchCard('practice1', 1)">NEXT</button>
+      <button onclick="switchCard('practice2', -1)">BACK</button>
+      <button onclick="switchCard('practice2')">NEXT</button>
     </div>
   </div>
 </div>
@@ -1525,137 +1543,190 @@ input {
   }
 </script>
 
+
+
 <script>
-// 录制相关变量
+// Global variables
 let mediaRecorder;
 let recordedChunks = [];
 let recordingType = '';
+let recordingStream = null;
+let recordedBlob = null;
 
-document.getElementById('startVideoBtn').addEventListener('click', () => startRecording('video'));
-document.getElementById('startAudioBtn').addEventListener('click', () => startRecording('audio'));
-document.getElementById('stopRecordingBtn').addEventListener('click', stopRecording);
-document.getElementById('sendRecordingBtn').addEventListener('click', sendRecording);
-document.getElementById('retryRecordingBtn').addEventListener('click', resetRecording);
+// DOM Elements
+const startVideoBtn = document.getElementById('startVideoBtn');
+const startAudioBtn = document.getElementById('startAudioBtn');
+const stopRecordingBtn = document.getElementById('stopRecordingBtn');
+const playRecordingBtn = document.getElementById('playRecordingBtn');
+const sendRecordingBtn = document.getElementById('sendRecordingBtn');
+const retryRecordingBtn = document.getElementById('retryRecordingBtn');
+const videoPreview = document.getElementById('videoPreview');
+const audioPreview = document.getElementById('audioPreview');
+const recordingStatus = document.getElementById('recordingStatus');
+
+// Event Listeners
+startVideoBtn.addEventListener('click', () => startRecording('video'));
+startAudioBtn.addEventListener('click', () => startRecording('audio'));
+stopRecordingBtn.addEventListener('click', stopRecording);
+playRecordingBtn.addEventListener('click', playRecording);
+sendRecordingBtn.addEventListener('click', sendRecording);
+retryRecordingBtn.addEventListener('click', resetRecording);
 
 async function startRecording(type) {
-  recordingType = type;
   try {
-    const stream = await navigator.mediaDevices.getUserMedia({
-      video: type === 'video',
-      audio: true
-    });
-    
-    // 设置预览
-    const previewElement = type === 'video' ? 
-      document.getElementById('videoPreview') : 
-      document.getElementById('audioPreview');
-    
-    previewElement.srcObject = stream;
-    previewElement.style.display = 'block';
-    
-    // 隐藏选择按钮，显示控制按钮
-    document.querySelector('.recording-options').style.display = 'none';
-    document.getElementById('recordingControls').style.display = 'block';
-    
-    // 初始化MediaRecorder
-    mediaRecorder = new MediaRecorder(stream);
-    recordedChunks = [];
-    
-    mediaRecorder.ondataavailable = (e) => {
-      if (e.data.size > 0) recordedChunks.push(e.data);
+    recordingType = type;
+    const constraints = {
+      audio: true,
+      video: type === 'video' ? { facingMode: "user" } : false
     };
     
-    mediaRecorder.start();
-    updateStatus(`正在录制${type === 'video' ? '视频' : '音频'}...`);
+    recordingStream = await navigator.mediaDevices.getUserMedia(constraints);
     
-  } catch (err) {
-    updateStatus(`错误: ${err.message}`, 'error');
+    // Setup preview
+    const previewElement = type === 'video' ? videoPreview : audioPreview;
+    previewElement.srcObject = recordingStream;
+    previewElement.style.display = 'block';
+    
+    // Toggle UI
+    document.querySelector('.recording-options').style.display = 'none';
+    document.getElementById('recordingControls').style.display = 'block';
+    playRecordingBtn.style.display = 'none';
+    
+    // Initialize MediaRecorder
+    mediaRecorder = new MediaRecorder(recordingStream);
+    recordedChunks = [];
+    
+    mediaRecorder.ondataavailable = (event) => {
+      if (event.data.size > 0) {
+        recordedChunks.push(event.data);
+      }
+    };
+    
+    mediaRecorder.onstop = () => {
+      recordedBlob = new Blob(recordedChunks, {
+        type: recordingType === 'video' ? 'video/mp4' : 'audio/wav'
+      });
+      
+      const previewElement = recordingType === 'video' ? videoPreview : audioPreview;
+      previewElement.src = URL.createObjectURL(recordedBlob);
+      previewElement.srcObject = null;
+      playRecordingBtn.style.display = 'inline-block';
+    };
+    
+    mediaRecorder.start(100); // Collect data every 100ms
+    updateStatus(`Recording ${type}...`);
+    
+  } catch (error) {
+    console.error('Error starting recording:', error);
+    updateStatus(`Error: ${error.message}`, 'error');
   }
 }
 
 function stopRecording() {
   if (mediaRecorder && mediaRecorder.state !== 'inactive') {
     mediaRecorder.stop();
-    mediaRecorder.stream.getTracks().forEach(track => track.stop());
-    updateStatus('录制完成！');
+    if (recordingStream) {
+      recordingStream.getTracks().forEach(track => track.stop());
+    }
+    updateStatus('Recording complete! Click Play to review.');
   }
 }
 
+function playRecording() {
+  if (!recordedBlob) return;
+  
+  const previewElement = recordingType === 'video' ? videoPreview : audioPreview;
+  previewElement.currentTime = 0;
+  previewElement.play();
+}
+
 function resetRecording() {
+  // Clean up previous recording
+  if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+    mediaRecorder.stop();
+  }
+  if (recordingStream) {
+    recordingStream.getTracks().forEach(track => track.stop());
+  }
+  
+  // Reset UI
   recordedChunks = [];
-  document.getElementById('videoPreview').style.display = 'none';
-  document.getElementById('audioPreview').style.display = 'none';
+  recordedBlob = null;
+  videoPreview.style.display = 'none';
+  audioPreview.style.display = 'none';
+  videoPreview.src = '';
+  audioPreview.src = '';
+  playRecordingBtn.style.display = 'none';
   document.querySelector('.recording-options').style.display = 'block';
   document.getElementById('recordingControls').style.display = 'none';
   updateStatus('');
 }
 
 function sendRecording() {
-  if (recordedChunks.length === 0) {
-    updateStatus('没有可发送的录制内容', 'error');
+  if (!recordedBlob) {
+    updateStatus('No recording to send', 'error');
     return;
   }
 
-  const blob = new Blob(recordedChunks, {
-    type: recordingType === 'video' ? 'video/mp4' : 'audio/wav'
-  });
+  updateStatus('Preparing to send...');
   
-  // 创建下载链接（实际应用中应该发送到服务器）
-  const formData = new FormData();
-  formData.append('recording', blob, `recording.${recordingType === 'video' ? 'mp4' : 'wav'}`);
-  formData.append('email', 'datbg.0702@gmail.com');
+  // Create download link (for demo)
+  const url = URL.createObjectURL(recordedBlob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `recording.${recordingType === 'video' ? 'mp4' : 'wav'}`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
   
-  // 这里应该是实际的API调用，以下是模拟代码
-  updateStatus('正在发送...');
-  
-  // 模拟发送（实际使用时替换为真实API调用）
+  // Simulate sending to email
   setTimeout(() => {
-    updateStatus('已发送到 datbg.0702@gmail.com');
-    
-    // 创建临时下载链接（演示用）
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `recording.${recordingType === 'video' ? 'mp4' : 'wav'}`;
-    a.click();
-    
+    updateStatus(`Recording sent to datbg.0702@gmail.com`);
   }, 2000);
 }
 
 function updateStatus(message, type = 'info') {
-  const statusEl = document.getElementById('recordingStatus');
-  statusEl.textContent = message;
-  statusEl.style.color = type === 'error' ? 'red' : 'green';
+  recordingStatus.textContent = message;
+  recordingStatus.style.color = type === 'error' ? 'red' : 'green';
 }
 </script>
 
 <style>
-.recording-options {
-  margin: 15px 0;
-}
-
 .recording-options button, #recordingControls button {
-  padding: 8px 15px;
-  margin: 0 5px;
-  background: #4CAF50;
-  color: white;
+  padding: 10px 15px;
+  margin: 5px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
+  background-color: #4285f4;
+  color: white;
+  font-size: 14px;
   cursor: pointer;
-  font-size: 16px;
+  transition: background-color 0.3s;
 }
 
-#recordingControls button {
-  background: #2196F3;
+.recording-options button:hover, #recordingControls button:hover {
+  background-color: #3367d6;
 }
 
 #stopRecordingBtn {
-  background: #f44336;
+  background-color: #ea4335;
+}
+
+#stopRecordingBtn:hover {
+  background-color: #d33426;
+}
+
+#playRecordingBtn {
+  background-color: #34a853;
+}
+
+#playRecordingBtn:hover {
+  background-color: #2d9249;
 }
 
 #recordingStatus {
+  font-size: 14px;
+  color: #666;
   margin-top: 10px;
-  font-weight: bold;
-  min-height: 20px;
 }
 </style>
