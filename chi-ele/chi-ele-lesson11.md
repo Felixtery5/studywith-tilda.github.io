@@ -861,7 +861,7 @@ permalink: /chi-ele/chi-ele-lesson11/
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/prac2/Q1.png" alt="picture" >
+      <img src="/chi-ele/lesson11/vocab/prac2/Q1.png" alt="picture" width="500">
       <audio controls style="display: block; margin: 10px auto;">
         <source src="/chi-ele/lesson11/vocab/prac2/Q1-mp3.mp3" type="audio/mp3">
       </audio>
@@ -1108,9 +1108,16 @@ function viewAnswers() {
     const inputEl    = button.previousElementSibling;
     const resultSpan = button.nextElementSibling;
     const userInput  = inputEl.value.trim();
+    const questionImage = document.getElementById(imageId);
     if (userInput === correct) {
       resultSpan.textContent = '✅ 正确！';
       resultSpan.style.color = 'green';
+      // 切换为答案图片
+      questionImage.src = answerImageUrl;
+        
+      // 禁用输入框和按钮
+      inputEl.disabled = true;
+      button.disabled = true;
     } else {
       resultSpan.textContent = '❌ 错误，再试一次。';
       resultSpan.style.color = 'red';
