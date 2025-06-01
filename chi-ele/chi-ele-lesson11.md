@@ -1217,25 +1217,6 @@ permalink: /chi-ele/chi-ele-lesson11/
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/grammar/YuDuiHua.png" alt="picture" width="500">
     </div>
-    <div class="practice-question" style="text-align: center;">
-      <!-- 录制选择按钮 -->
-      <div class="recording-options">
-        <button id="startVideoBtn">🎥 New Video</button>
-        <button id="startAudioBtn">🎤 New Record</button>
-      </div>
-      <!-- 视频录制预览 -->
-      <video id="videoPreview" controls style="display:none; max-width:500px; margin:10px auto;"></video>
-      <!-- 音频录制预览 -->
-      <audio id="audioPreview" controls style="display:none; margin:10px auto;"></audio>
-      <!-- 控制按钮 -->
-      <div id="recordingControls" style="display:none;">
-        <button id="stopRecordingBtn">⏹ Stop</button>
-        <button id="sendRecordingBtn">✉️ Send</button>
-        <button id="retryRecordingBtn">🔄 Redo</button>
-      </div>
-      <!-- 状态显示 -->
-      <div id="recordingStatus"></div>
-    </div>
     <div class="nav-btns">
       <button onclick="switchCard('practice1', -1)">BACK</button>
       <button onclick="switchCard('practice1', 1)">NEXT</button>
