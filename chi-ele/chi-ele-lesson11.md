@@ -606,19 +606,19 @@ permalink: /chi-ele/chi-ele-lesson11/
   <div class="vocab-card practice-card" style="display:none">
     <p>请选择正确的图片或单词：</p>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A5.jpg" alt="picture" width="75" height="75" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A1.jpg" alt="picture" width="100" height="100" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A2.jpg" alt="picture" width="100" height="100" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A3.jpg" alt="picture" width="100" height="100" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A4.jpg" alt="picture" width="100" height="100" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A8.jpg" alt="picture" width="25" height="25" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A5.jpg" alt="picture" width="75" height="125" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A1.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A2.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A3.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A4.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A8.jpg" alt="picture" width="25"  height="50" >
     </div>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A9.jpg" alt="picture" width="50" height="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A6.jpg" alt="picture" width="75" height="75" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A7.jpg" alt="picture" width="50" height="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A10.jpg" alt="picture" width="50" height="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A11.jpg" alt="picture" width="100" height="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A9.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A6.jpg" alt="picture" width="75" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A7.jpg" alt="picture" width="60" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A10.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A11.jpg" alt="picture" width="100" >
     </div>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q1.jpg" alt="picture" width="500" >
@@ -857,6 +857,33 @@ permalink: /chi-ele/chi-ele-lesson11/
       <div id="correct-answers-list"></div>
     </div>
   </div>
+  <!-- 生词练习2 -->
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/prac2/Q1.png" alt="picture" >
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/prac2/Q1-mp3.mp3" type="audio/mp3">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写答案"
+        data-answer="打篮球"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer, 
+                                                        'question-image', '/chi-ele/lesson11/vocab/prac2/Q1Answer.png') }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer, 
+                                                 'question-image', '/chi-ele/lesson11/vocab/prac2/Q1Answer.png')">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  
 </div>
 
 <!-- 语言点 -->
