@@ -951,6 +951,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       >
       <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
       <span class="feedback"></span>
+    </div>
+    <div class="practice-question" style="text-align: center;">
       <span class="question-number">2.</span>
       <input
         type="text"
@@ -983,17 +985,52 @@ permalink: /chi-ele/chi-ele-lesson11/
 
 <!-- 语言点 -->
 <div class="lesson-section" id="grammar" style="display:none">
+  <!-- 跟……一样 -->
   <div class="vocab-card" style="display:block">
-    <p><strong>又……又……</strong></p>
-    <p><strong>Ex:</strong> 夏天又热又闷。</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang.png" alt="picture" width="100">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-ex1.png" alt="picture" width="500">
+    </div>
     <div class="nav-btns">
       <button onclick="switchCard('grammar', -1)">BACK</button>
       <button onclick="switchCard('grammar', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card" style="display:none">
-    <p><strong>又……又……</strong></p>
-    <p><strong>Ex:</strong> 他学习又认真又努力。</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang.png" alt="picture" width="100">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-ex2.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('grammar', -1)">BACK</button>
+      <button onclick="switchCard('grammar', 1)">NEXT</button>
+    </div>
+  </div>
+  <!-- 又……又…… -->
+  <div class="lesson-section" id="grammar" style="display:none">
+  <div class="vocab-card" style="display:block">
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/youyou/2You.You.png" alt="picture" width="100">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/youyou/2You.You-ex1.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('grammar', -1)">BACK</button>
+      <button onclick="switchCard('grammar', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card" style="display:none">
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/youyou/2You.You.png" alt="picture" width="100">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/youyou/2You.You-ex2.png" alt="picture" width="500">
+    </div>
     <div class="nav-btns">
       <button onclick="switchCard('grammar', -1)">BACK</button>
       <button onclick="switchCard('grammar', 1)">NEXT</button>
@@ -1002,19 +1039,182 @@ permalink: /chi-ele/chi-ele-lesson11/
 </div>
 
 <!-- 练习2 -->
+<!-- 跟……一样 -->
 <div class="lesson-section" id="practice2" style="display:none">
-  <div class="vocab-card" style="display:block">
-    <!-- 填写练习2内容 -->
+  <div class="vocab-card practice-card" style="display:block">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-Q1.png" alt="picture" width="500">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写答案"
+        data-answer="小黄跟小林一样高。"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
-  <div class="vocab-card" style="display:none">
-    <!-- 练习2 第2张卡 -->
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-Q1A1.png" alt="picture" width="500">
+    </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-Q2.png" alt="picture" width="500">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写答案"
+        data-answer="狗跟猫一样可爱。"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-Q2A2.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-Q3.png" alt="picture" width="500">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写答案"
+        data-answer="北京烤鸭跟西红柿炒鸡蛋一样好吃。"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-Q3A3.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  
+<!-- 又……又…… -->
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q1.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q1A1.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q2.png" alt="picture" width="500">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写答案"
+        data-answer="又便宜又新鲜"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q2A2.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q3.png" alt="picture" width="500">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写答案"
+        data-answer="又热又闷"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q3A3.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
 </div>
@@ -1059,16 +1259,11 @@ permalink: /chi-ele/chi-ele-lesson11/
 <div class="lesson-section" id="culture" style="display:none">
   <div class="vocab-card" style="display:block">
     <!-- 填写文化体验内容 -->
-    <div class="nav-btns">
-      <button onclick="switchCard('culture', -1)">BACK</button>
-      <button onclick="switchCard('culture', 1)">NEXT</button>
-    </div>
-  </div>
-  <div class="vocab-card" style="display:none">
-    <!-- 文化体验 第2张卡 -->
-    <div class="nav-btns">
-      <button onclick="switchCard('culture', -1)">BACK</button>
-      <button onclick="switchCard('culture', 1)">NEXT</button>
+    <div class="practice-question" style="text-align: center;">
+      <video controls style="display: block; margin: 10px auto; max-width: 500px;">
+        <source src="/chi-ele/lesson11/V2WenHua.mp4" type="video/mp4">
+        您的浏览器不支持HTML5视频
+      </video>
     </div>
   </div>
 </div>
@@ -1077,17 +1272,9 @@ permalink: /chi-ele/chi-ele-lesson11/
 <div class="lesson-section" id="homework" style="display:none">
   <div class="vocab-card" style="display:block">
     <!-- 填写作业内容 -->
-    <div class="nav-btns">
-      <button onclick="switchCard('homework', -1)">BACK</button>
-      <button onclick="switchCard('homework', 1)">NEXT</button>
-    </div>
-  </div>
-  <div class="vocab-card" style="display:none">
-    <!-- 作业 第2张卡 -->
-    <div class="nav-btns">
-      <button onclick="switchCard('homework', -1)">BACK</button>
-      <button onclick="switchCard('homework', 1)">NEXT</button>
-    </div>
+    <p>1. 复习本课学习内容。</p> 
+    <p>2. 问问你的朋友/家人喜欢什么运动，会做什么运动？</p> 
+    <p>3. 自己扫码，体验共享单车。</p> 
   </div>
 </div>
 
