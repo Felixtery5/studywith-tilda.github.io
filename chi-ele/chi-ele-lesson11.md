@@ -857,13 +857,12 @@ permalink: /chi-ele/chi-ele-lesson11/
       <div id="correct-answers-list"></div>
     </div>
   </div>
+  
   <!-- 生词练习3 -->
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/vocab/prac2/Q1.png" alt="picture" width="500">
-    </div>
-    <div class="practice-question" style="text-align: center;">
       <audio controls style="display: block; margin: 10px auto;">
         <source src="/chi-ele/lesson11/vocab/prac2/Q1-mp3.mp3" type="audio/mp3">
       </audio>
@@ -887,8 +886,6 @@ permalink: /chi-ele/chi-ele-lesson11/
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/vocab/prac2/Q1Answer.png" alt="picture" width="500">
-    </div>
-    <div class="practice-question" style="text-align: center;">
       <audio controls style="display: block; margin: 10px auto;">
         <source src="/chi-ele/lesson11/vocab/prac2/Q1-mp3.mp3" type="audio/mp3">
       </audio>
@@ -903,8 +900,6 @@ permalink: /chi-ele/chi-ele-lesson11/
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/vocab/prac2/Q2.png" alt="picture" width="500">
-    </div>
-    <div class="practice-question" style="text-align: center;">
       <audio controls style="display: block; margin: 10px auto;">
         <source src="/chi-ele/lesson11/vocab/prac2/Q2-mp3.m4a" type="audio/mp4">
       </audio>
@@ -928,8 +923,6 @@ permalink: /chi-ele/chi-ele-lesson11/
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/vocab/prac2/Q2Answer.png" alt="picture" width="500">
-    </div>
-    <div class="practice-question" style="text-align: center;">
       <audio controls style="display: block; margin: 10px auto;">
         <source src="/chi-ele/lesson11/vocab/prac2/Q2-mp3.m4a" type="audio/mp4">
       </audio>
@@ -944,8 +937,6 @@ permalink: /chi-ele/chi-ele-lesson11/
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/vocab/prac2/Q3.png" alt="picture" width="500">
-    </div>
-    <div class="practice-question" style="text-align: center;">
       <audio controls style="display: block; margin: 10px auto;">
         <source src="/chi-ele/lesson11/vocab/prac2/Q3-mp3.mp3" type="audio/mp3">
       </audio>
@@ -958,6 +949,8 @@ permalink: /chi-ele/chi-ele-lesson11/
         data-answer="打网球"
         onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
       >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
       <span class="question-number">2.</span>
       <input
         type="text"
@@ -977,8 +970,6 @@ permalink: /chi-ele/chi-ele-lesson11/
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/vocab/prac2/Q3Answer.png" alt="picture" width="500">
-    </div>
-    <div class="practice-question" style="text-align: center;">
       <audio controls style="display: block; margin: 10px auto;">
         <source src="/chi-ele/lesson11/vocab/prac2/Q3-mp3.mp3" type="audio/mp3">
       </audio>
