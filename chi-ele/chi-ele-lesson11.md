@@ -988,7 +988,7 @@ permalink: /chi-ele/chi-ele-lesson11/
   <!-- 跟……一样 -->
   <div class="vocab-card" style="display:block">
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang.png" alt="picture" width="100">
+      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang.png" alt="picture" width="150">
     </div>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-ex1.png" alt="picture" width="500">
@@ -1000,7 +1000,7 @@ permalink: /chi-ele/chi-ele-lesson11/
   </div>
   <div class="vocab-card" style="display:none">
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang.png" alt="picture" width="100">
+      <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang.png" alt="picture" width="150">
     </div>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-ex2.png" alt="picture" width="500">
@@ -1013,7 +1013,7 @@ permalink: /chi-ele/chi-ele-lesson11/
   <!-- 又……又…… -->
   <div class="vocab-card" style="display:block">
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/grammar/youyou/2You.You.png" alt="picture" width="100">
+      <img src="/chi-ele/lesson11/grammar/youyou/2You.You.png" alt="picture" width="150">
     </div>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You-ex1.png" alt="picture" width="500">
@@ -1025,7 +1025,7 @@ permalink: /chi-ele/chi-ele-lesson11/
   </div>
   <div class="vocab-card" style="display:none">
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/grammar/youyou/2You.You.png" alt="picture" width="100">
+      <img src="/chi-ele/lesson11/grammar/youyou/2You.You.png" alt="picture" width="150">
     </div>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You-ex2.png" alt="picture" width="500">
@@ -1254,7 +1254,7 @@ permalink: /chi-ele/chi-ele-lesson11/
   <div class="vocab-card">
     <!-- 填写文化体验内容 -->
     <div class="practice-question" style="text-align: center;">
-      <video controls style="display: block; margin: 10px auto; max-width: 500px;">
+      <video controls style="display: block; margin: 10px auto; max-width: 800px;">
         <source src="/chi-ele/lesson11/V2WenHua.mp4" type="video/mp4">
         您的浏览器不支持HTML5视频
       </video>
