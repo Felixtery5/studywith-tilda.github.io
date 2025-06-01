@@ -606,26 +606,28 @@ permalink: /chi-ele/chi-ele-lesson11/
   <div class="vocab-card practice-card" style="display:none">
     <p>请选择正确的图片或单词：</p>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A5.jpg" alt="picture" width="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A1.jpg" alt="picture" width="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A2.jpg" alt="picture" width="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A3.jpg" alt="picture" width="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A4.jpg" alt="picture" width="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A8.jpg" alt="picture" width="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A9.jpg" alt="picture" width="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A6.jpg" alt="picture" width="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A7.jpg" alt="picture" width="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A10.jpg" alt="picture" width="50" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A11.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A5.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A1.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A2.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A3.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A4.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A8.jpg" alt="picture" width="100" >
     </div>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q1.jpg" alt="picture" width="150" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A9.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A6.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A7.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A10.jpg" alt="picture" width="100" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A11.jpg" alt="picture" width="100" >
     </div>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q2.jpg" alt="picture" width="150" >
+      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q1.jpg" alt="picture" width="400" >
     </div>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q3.jpg" alt="picture" width="150" >
+      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q2.jpg" alt="picture" width="400" >
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q3.jpg" alt="picture" width="400" >
     </div>
     <!-- 问题选择区域 -->
     <div class="matching-quiz">
