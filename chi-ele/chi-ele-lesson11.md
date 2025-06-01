@@ -604,26 +604,251 @@ permalink: /chi-ele/chi-ele-lesson11/
   </div>
   <!-- 生词练习2 -->
   <div class="vocab-card practice-card" style="display:none">
-    <p>根据图片和音频填写正确的生词：</p>
+    <p>请选择正确的图片或单词：</p>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/7ZuQiu-photo.jpg" alt="骑自行车" width="150" >
-      <audio controls style="display: block; margin: 10px auto;">
-        <source src="/chi-ele/lesson11/vocab/7ZuQiu.m4a" type="audio/mp4">
-      </audio>
+      <img src="chi-ele/lesson11/vocab/prac1/P1-Q1-A5.jpg" alt="picture" width="50" >
+      <img src="chi-ele/lesson11/vocab/prac1/P1-Q1-A1.jpg" alt="picture" width="50" >
+      <img src="chi-ele/lesson11/vocab/prac1/P1-Q1-A2.jpg" alt="picture" width="50" >
+      <img src="chi-ele/lesson11/vocab/prac1/P1-Q1-A3.jpg" alt="picture" width="50" >
+      <img src="chi-ele/lesson11/vocab/prac1/P1-Q1-A4.jpg" alt="picture" width="50" >
+      <img src="chi-ele/lesson11/vocab/prac1/P1-Q2-A8.jpg" alt="picture" width="50" >
+      <img src="chi-ele/lesson11/vocab/prac1/P1-Q2-A9.jpg" alt="picture" width="50" >
+      <img src="chi-ele/lesson11/vocab/prac1/P1-Q2-A6.jpg" alt="picture" width="50" >
+      <img src="chi-ele/lesson11/vocab/prac1/P1-Q2-A7.jpg" alt="picture" width="50" >
+      <img src="chi-ele/lesson11/vocab/prac1/P1-Q3-A10.jpg" alt="picture" width="50" >
+      <img src="chi-ele/lesson11/vocab/prac1/P1-Q3-A11.jpg" alt="picture" width="50" >
     </div>
     <div class="practice-question" style="text-align: center;">
-      <input
-        type="text"
-        placeholder="填写生词"
-        data-answer="足球"
-        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
-      >
-      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
-      <span class="feedback"></span>
+      <img src="chi-ele/lesson11/vocab/prac1/1P1-Q1.jpg" alt="picture" width="150" >
+      <img src="chi-ele/lesson11/vocab/prac1/1P1-Q2.jpg" alt="picture" width="150" >
+      <img src="chi-ele/lesson11/vocab/prac1/1P1-Q3.jpg" alt="picture" width="150" >
+    </div>
+    <!-- 问题选择区域 -->
+    <div class="matching-quiz">
+      <div class="questions-container">
+        <!-- 空格1 -->
+        <div class="question" data-qid="1">
+          <span class="question-number">1.</span>
+          <select class="answer-select">
+            <option value="">-- 选择 --</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+            <option value="J">J</option>
+            <option value="K">K</option>
+          </select>
+          <span class="feedback-icon"></span>
+        </div>
+        <!-- 空格2 -->
+        <div class="question" data-qid="2">
+          <span class="question-number">2.</span>
+          <select class="answer-select">
+            <option value="">-- 选择 --</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+            <option value="J">J</option>
+            <option value="K">K</option>
+          </select>
+          <span class="feedback-icon"></span>
+        </div>
+        <!-- 空格3 -->
+        <div class="question" data-qid="3">
+          <span class="question-number">3.</span>
+          <select class="answer-select">
+            <option value="">-- 选择 --</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+            <option value="J">J</option>
+            <option value="K">K</option>
+          </select>
+          <span class="feedback-icon"></span>
+        </div>
+        <!-- 空格4 -->
+        <div class="question" data-qid="4">
+          <span class="question-number">4.</span>
+          <select class="answer-select">
+            <option value="">-- 选择 --</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+            <option value="J">J</option>
+            <option value="K">K</option>
+          </select>
+          <span class="feedback-icon"></span>
+        </div>
+        <!-- 空格5 -->
+        <div class="question" data-qid="5">
+          <span class="question-number">5.</span>
+          <select class="answer-select">
+            <option value="">-- 选择 --</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+            <option value="J">J</option>
+            <option value="K">K</option>
+          </select>
+          <span class="feedback-icon"></span>
+        </div>
+        <!-- 空格6 -->
+        <div class="question" data-qid="6">
+          <span class="question-number">6.</span>
+          <select class="answer-select">
+            <option value="">-- 选择 --</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+            <option value="J">J</option>
+            <option value="K">K</option>
+          </select>
+          <span class="feedback-icon"></span>
+        </div>
+        <!-- 空格7 -->
+        <div class="question" data-qid="7">
+          <span class="question-number">7.</span>
+          <select class="answer-select">
+            <option value="">-- 选择 --</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+            <option value="J">J</option>
+            <option value="K">K</option>
+          </select>
+          <span class="feedback-icon"></span>
+        </div>
+        <!-- 空格8 -->
+        <div class="question" data-qid="8">
+          <span class="question-number">8.</span>
+          <select class="answer-select">
+            <option value="">-- 选择 --</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+            <option value="J">J</option>
+            <option value="K">K</option>
+          </select>
+          <span class="feedback-icon"></span>
+        </div>
+        <!-- 空格9 -->
+        <div class="question" data-qid="9">
+          <span class="question-number">9.</span>
+          <select class="answer-select">
+            <option value="">-- 选择 --</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+            <option value="J">J</option>
+            <option value="K">K</option>
+          </select>
+          <span class="feedback-icon"></span>
+        </div>
+        <!-- 空格10 -->
+        <div class="question" data-qid="10">
+          <span class="question-number">10.</span>
+          <select class="answer-select">
+            <option value="">-- 选择 --</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+            <option value="J">J</option>
+            <option value="K">K</option>
+          </select>
+          <span class="feedback-icon"></span>
+        </div>
+        <!-- 空格11 -->
+        <div class="question" data-qid="11">
+          <span class="question-number">11.</span>
+          <select class="answer-select">
+            <option value="">-- 选择 --</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+            <option value="J">J</option>
+            <option value="K">K</option>
+          </select>
+          <span class="feedback-icon"></span>
+        </div>
+      </div>
+      <div class="practice-question" style="text-align: center;">
+        <button type="button" onclick="checkMatchingAnswers()">SUBMIT</button>
+        <button type="button" id="viewAnswerBtn" style="display:none" onclick="viewAnswers()">View Answer</button>
+        <span class="feedback"></span>
+      </div>
     </div>
     <div class="nav-btns">
       <button onclick="switchCard('practice1', -1)">BACK</button>
       <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+    <div class="answer-key" style="display:none; margin-top:20px; padding:15px; background:#f5f5f5; border-radius:5px;">
+      <h3>正确答案:</h3>
+      <div id="correct-answers-list"></div>
     </div>
   </div>
 </div>
@@ -742,6 +967,91 @@ permalink: /chi-ele/chi-ele-lesson11/
 
 
 <script>
+  // 存储正确答案
+const correctAnswers_vocab2 = {
+  '1': 'B',
+  '2': 'C',
+  '3': 'D',
+  '4': 'E',
+  '5': 'A',
+  '6': 'H',
+  '7': 'I',
+  '8': 'F',
+  '9': 'G',
+  '10': 'J',
+  '11': 'K'
+};
+  // 已选择的选项
+const selectedOptions = new Set();
+
+function checkSelection(selectElement) {
+  const selectedValue = selectElement.value;
+  const questionId = selectElement.closest('.question').dataset.qid;
+  
+  // 清除之前的选择（如果有）
+  if (selectElement.dataset.prevValue) {
+    selectedOptions.delete(selectElement.dataset.prevValue);
+  }
+  
+  // 检查是否已被选择
+  if (selectedValue && selectedOptions.has(selectedValue)) {
+    alert('这个选项已经被选择了，请选择其他选项');
+    selectElement.value = '';
+    return;
+  }
+  
+  // 更新选择
+  if (selectedValue) {
+    selectedOptions.add(selectedValue);
+    selectElement.dataset.prevValue = selectedValue;
+  }
+  
+  // 清除之前的反馈图标
+  const feedbackIcon = selectElement.nextElementSibling;
+  feedbackIcon.textContent = '';
+  feedbackIcon.className = 'feedback-icon';
+}
+
+function checkMatchingAnswers() {
+  const selects = document.querySelectorAll('.answer-select');
+  let score = 0;
+  
+  selects.forEach(select => {
+    const questionId = select.closest('.question').dataset.qid;
+    const feedbackIcon = select.nextElementSibling;
+    
+    if (select.value === correctAnswers_vocab2[questionId]) {
+      score++;
+      feedbackIcon.textContent = '✅';
+      feedbackIcon.className = 'feedback-icon correct';
+    } else if (select.value) {
+      feedbackIcon.textContent = '❌';
+      feedbackIcon.className = 'feedback-icon incorrect';
+    }
+  });
+  
+  document.querySelector('.feedback').textContent = `你答对了 ${score} 题，共11题`;
+  
+  // 显示View Answer按钮
+  document.getElementById('viewAnswerBtn').style.display = 'inline-block';
+}
+
+function viewAnswers() {
+  const answerKey = document.querySelector('.answer-key');
+  const answersList = document.getElementById('correct-answers-list');
+  
+  // 构建正确答案列表
+  answersList.innerHTML = '';
+  for (let i = 1; i <= 11; i++) {
+    const div = document.createElement('div');
+    div.textContent = `${i}. ${correctAnswers_vocab2[i]}`;
+    answersList.appendChild(div);
+  }
+  
+  // 显示答案区域
+  answerKey.style.display = 'block';
+}
+  
   function showSection(id) {
     document.querySelectorAll('.lesson-section').forEach(sec => sec.style.display = 'none');
     document.getElementById(id).style.display = 'block';
@@ -773,6 +1083,14 @@ permalink: /chi-ele/chi-ele-lesson11/
       resultSpan.style.color = 'red';
     }
   }
+
+  // 为所有选择框添加事件监听
+document.querySelectorAll('.answer-select').forEach(select => {
+  select.addEventListener('change', function() {
+    checkSelection(this);
+  });
+});
+  
 </script>
 
 <style>
@@ -846,6 +1164,31 @@ input {
 .feedback {
   margin-left: 8px;
   font-weight: bold;
+}
+
+  /* 新增的选择题样式 */
+.question {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.question-number {
+  width: 30px;
+  display: inline-block;
+}
+.answer-select {
+  padding: 5px;
+  margin: 0 10px;
+}
+.feedback-icon {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.correct {
+  color: green;
+}
+.incorrect {
+  color: red;
 }
 </style>
 
