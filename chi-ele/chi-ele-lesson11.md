@@ -1574,10 +1574,9 @@ retryRecordingBtn.addEventListener('click', resetRecording);
 
 async function startRecording(type) {
   try {
-    try {
     recordingType = type;
     const constraints = {
-      audio: {
+      audio: audio: {
         echoCancellation: true,
         noiseSuppression: true,
         sampleRate: 44100
@@ -1597,20 +1596,8 @@ async function startRecording(type) {
     document.getElementById('recordingControls').style.display = 'block';
     playRecordingBtn.style.display = 'none';
     
-    // Initialize MediaRecorder with proper mimeType
-    const options = { 
-      audioBitsPerSecond: 128000,
-      videoBitsPerSecond: 2500000,
-      mimeType: type === 'video' ? 'video/webm;codecs=vp9' : 'audio/webm'
-    };
-      
-    try {
-      mediaRecorder = new MediaRecorder(recordingStream, options);
-    } catch (e) {
-      console.warn('Using default recorder:', e);
-      mediaRecorder = new MediaRecorder(recordingStream);
-    }
-    
+    // Initialize MediaRecorder
+    mediaRecorder = new MediaRecorder(recordingStream);
     recordedChunks = [];
     
     mediaRecorder.ondataavailable = (event) => {
@@ -1631,14 +1618,11 @@ async function startRecording(type) {
     };
     
     mediaRecorder.start(100); // Collect data every 100ms
-    updateStatus(`Recording ${type}... Speak clearly into microphone.`);
+    updateStatus(`Recording ${type}...`);
     
   } catch (error) {
     console.error('Error starting recording:', error);
     updateStatus(`Error: ${error.message}`, 'error');
-    if (error.name === 'NotAllowedError') {
-      updateStatus('Please allow microphone access', 'error');
-    }
   }
 }
 
@@ -1701,7 +1685,7 @@ function sendRecording() {
   
   // Simulate sending to email
   setTimeout(() => {
-    updateStatus(`Recording sent`);
+    updateStatus(`Please send your video/recording to [datbg.0702@gmail.com]`);
   }, 2000);
 }
 
