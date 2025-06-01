@@ -857,10 +857,10 @@ permalink: /chi-ele/chi-ele-lesson11/
       <div id="correct-answers-list"></div>
     </div>
   </div>
-  <!-- 生词练习2 -->
+  <!-- 生词练习3 -->
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频选择正确答案：</p>
-    <div class="practice-question" style="text-align: center;">
+    <div id="Q1-card" class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/vocab/prac2/Q1.png" alt="picture" width="500">
       <audio controls style="display: block; margin: 10px auto;">
         <source src="/chi-ele/lesson11/vocab/prac2/Q1-mp3.mp3" type="audio/mp3">
@@ -871,11 +871,9 @@ permalink: /chi-ele/chi-ele-lesson11/
         type="text"
         placeholder="填写答案"
         data-answer="打篮球"
-        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer, 
-                                                        'question-image', '/chi-ele/lesson11/vocab/prac2/Q1Answer.png') }"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
       >
-      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer, 
-                                                 'question-image', '/chi-ele/lesson11/vocab/prac2/Q1Answer.png')">SUBMIT</button>
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
       <span class="feedback"></span>
     </div>
     <div class="nav-btns">
@@ -883,7 +881,92 @@ permalink: /chi-ele/chi-ele-lesson11/
       <button onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
-  
+  <div id="Q1-answer-card" class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/prac2/Q1Answer.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+
+  <div id="Q2-answer" class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/prac2/Q2.png" alt="picture" width="500">
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/prac2/Q2-mp3.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <input
+        type="text"
+        placeholder="填写答案"
+        data-answer="骑自行车"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div id="Q2-answer-card" class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/prac2/Q2Answer.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+
+  <div id="Q3-answer" class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/prac2/Q3.png" alt="picture" width="500">
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/vocab/prac2/Q3-mp3.mp3" type="audio/mp3">
+      </audio>
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <span class="question-number">1.</span>
+      <input
+        type="text"
+        placeholder="填写答案"
+        data-answer="打网球"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <span class="question-number">2.</span>
+      <input
+        type="text"
+        placeholder="填写答案"
+        data-answer="游泳"
+        onkeydown="if(event.key==='Enter'){ checkAnswer(this.nextElementSibling, this.dataset.answer) }"
+      >
+      <button type="button" onclick="checkAnswer(this, this.previousElementSibling.dataset.answer)">SUBMIT</button>
+      <span class="feedback"></span>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
+  <div id="Q3-answer-card" class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/prac2/Q3Answer.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
 </div>
 
 <!-- 语言点 -->
@@ -1084,6 +1167,14 @@ function viewAnswers() {
   // 显示答案区域
   answerKey.style.display = 'block';
 }
+
+  // 全局变量记录当前卡片索引
+let currentCardIndex = 0;
+const cardGroups = [
+  ['Q1-card', 'Q1-answer-card'],
+  ['Q2-card', 'Q2-answer-card'],
+  ['Q3-card', 'Q3-answer-card']
+];
   
   function showSection(id) {
     document.querySelectorAll('.lesson-section').forEach(sec => sec.style.display = 'none');
@@ -1108,20 +1199,32 @@ function viewAnswers() {
     const inputEl    = button.previousElementSibling;
     const resultSpan = button.nextElementSibling;
     const userInput  = inputEl.value.trim();
-    const questionImage = document.getElementById(imageId);
     if (userInput === correct) {
       resultSpan.textContent = '✅ 正确！';
       resultSpan.style.color = 'green';
-      // 切换为答案图片
-      questionImage.src = answerImageUrl;
-        
-      // 禁用输入框和按钮
-      inputEl.disabled = true;
-      button.disabled = true;
+
+      // 1秒后自动切换到答案卡片
+      setTimeout(() => {
+        const currentGroup = cardGroups.find(group => 
+          document.getElementById(group[0]).style.display === 'block'
+        );
+        if (currentGroup) {
+          document.getElementById(currentGroup[0]).style.display = 'none';
+          document.getElementById(currentGroup[1]).style.display = 'block';
+          currentCardIndex++;
+        }
+      }, 1000);
     } else {
       resultSpan.textContent = '❌ 错误，再试一次。';
       resultSpan.style.color = 'red';
     }
+  }
+
+  function switchCard(sectionId, dir) {
+  const cards = document.querySelectorAll(`#${sectionId} .vocab-card`);
+  cards[currentCardIndex].style.display = 'none';
+  currentCardIndex = (currentCardIndex + dir + cards.length) % cards.length;
+  cards[currentCardIndex].style.display = 'block';
   }
 
   // 为所有选择框添加事件监听
