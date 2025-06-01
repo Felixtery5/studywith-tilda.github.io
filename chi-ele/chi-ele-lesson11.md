@@ -606,22 +606,26 @@ permalink: /chi-ele/chi-ele-lesson11/
   <div class="vocab-card practice-card" style="display:none">
     <p>请选择正确的图片或单词：</p>
     <div class="practice-question" style="text-align: center;">
-      <img src="chi-ele/lesson11/vocab/prac1/P1-Q1-A5.jpg" alt="picture" width="50" >
-      <img src="chi-ele/lesson11/vocab/prac1/P1-Q1-A1.jpg" alt="picture" width="50" >
-      <img src="chi-ele/lesson11/vocab/prac1/P1-Q1-A2.jpg" alt="picture" width="50" >
-      <img src="chi-ele/lesson11/vocab/prac1/P1-Q1-A3.jpg" alt="picture" width="50" >
-      <img src="chi-ele/lesson11/vocab/prac1/P1-Q1-A4.jpg" alt="picture" width="50" >
-      <img src="chi-ele/lesson11/vocab/prac1/P1-Q2-A8.jpg" alt="picture" width="50" >
-      <img src="chi-ele/lesson11/vocab/prac1/P1-Q2-A9.jpg" alt="picture" width="50" >
-      <img src="chi-ele/lesson11/vocab/prac1/P1-Q2-A6.jpg" alt="picture" width="50" >
-      <img src="chi-ele/lesson11/vocab/prac1/P1-Q2-A7.jpg" alt="picture" width="50" >
-      <img src="chi-ele/lesson11/vocab/prac1/P1-Q3-A10.jpg" alt="picture" width="50" >
-      <img src="chi-ele/lesson11/vocab/prac1/P1-Q3-A11.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A5.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A1.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A2.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A3.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A4.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A8.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A9.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A6.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A7.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A10.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A11.jpg" alt="picture" width="50" >
     </div>
     <div class="practice-question" style="text-align: center;">
-      <img src="chi-ele/lesson11/vocab/prac1/1P1-Q1.jpg" alt="picture" width="150" >
-      <img src="chi-ele/lesson11/vocab/prac1/1P1-Q2.jpg" alt="picture" width="150" >
-      <img src="chi-ele/lesson11/vocab/prac1/1P1-Q3.jpg" alt="picture" width="150" >
+      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q1.jpg" alt="picture" width="150" >
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q2.jpg" alt="picture" width="150" >
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q3.jpg" alt="picture" width="150" >
     </div>
     <!-- 问题选择区域 -->
     <div class="matching-quiz">
@@ -630,7 +634,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="1">
           <span class="question-number">1.</span>
           <select class="answer-select">
-            <option value="">-- 选择 --</option>
+            <option value="">-- Option --</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -649,7 +653,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="2">
           <span class="question-number">2.</span>
           <select class="answer-select">
-            <option value="">-- 选择 --</option>
+            <option value="">-- Option --</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -668,7 +672,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="3">
           <span class="question-number">3.</span>
           <select class="answer-select">
-            <option value="">-- 选择 --</option>
+            <option value="">-- Option --</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -687,7 +691,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="4">
           <span class="question-number">4.</span>
           <select class="answer-select">
-            <option value="">-- 选择 --</option>
+            <option value="">-- Option --</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -706,7 +710,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="5">
           <span class="question-number">5.</span>
           <select class="answer-select">
-            <option value="">-- 选择 --</option>
+            <option value="">-- Option --</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -725,7 +729,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="6">
           <span class="question-number">6.</span>
           <select class="answer-select">
-            <option value="">-- 选择 --</option>
+            <option value="">-- Option --</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -744,7 +748,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="7">
           <span class="question-number">7.</span>
           <select class="answer-select">
-            <option value="">-- 选择 --</option>
+            <option value="">-- Option --</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -763,7 +767,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="8">
           <span class="question-number">8.</span>
           <select class="answer-select">
-            <option value="">-- 选择 --</option>
+            <option value="">-- Option --</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -782,7 +786,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="9">
           <span class="question-number">9.</span>
           <select class="answer-select">
-            <option value="">-- 选择 --</option>
+            <option value="">-- Option --</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -801,7 +805,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="10">
           <span class="question-number">10.</span>
           <select class="answer-select">
-            <option value="">-- 选择 --</option>
+            <option value="">-- Option --</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -820,7 +824,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="11">
           <span class="question-number">11.</span>
           <select class="answer-select">
-            <option value="">-- 选择 --</option>
+            <option value="">-- Option --</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -995,7 +999,7 @@ function checkSelection(selectElement) {
   
   // 检查是否已被选择
   if (selectedValue && selectedOptions.has(selectedValue)) {
-    alert('这个选项已经被选择了，请选择其他选项');
+    alert('This option has already been selected. Please choose another one.');
     selectElement.value = '';
     return;
   }
