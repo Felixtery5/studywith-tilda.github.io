@@ -611,23 +611,23 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A2.jpg" alt="picture" width="100" >
       <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A3.jpg" alt="picture" width="100" >
       <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A4.jpg" alt="picture" width="100" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A8.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A8.jpg" alt="picture" width="25" >
     </div>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A9.jpg" alt="picture" width="75" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A6.jpg" alt="picture" width="100" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A7.jpg" alt="picture" width="75" >
-      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A10.jpg" alt="picture" width="75" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A9.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A6.jpg" alt="picture" width="75" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q2-A7.jpg" alt="picture" width="50" >
+      <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A10.jpg" alt="picture" width="50" >
       <img src="/chi-ele/lesson11/vocab/prac1/P1-Q3-A11.jpg" alt="picture" width="100" >
     </div>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q1.jpg" alt="picture" width="400" >
+      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q1.jpg" alt="picture" width="500" >
     </div>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q2.jpg" alt="picture" width="400" >
+      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q2.jpg" alt="picture" width="500" >
     </div>
     <div class="practice-question" style="text-align: center;">
-      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q3.jpg" alt="picture" width="400" >
+      <img src="/chi-ele/lesson11/vocab/prac1/1P1-Q3.jpg" alt="picture" width="500" >
     </div>
     <!-- 问题选择区域 -->
     <div class="matching-quiz">
@@ -1153,7 +1153,11 @@ document.querySelectorAll('.answer-select').forEach(select => {
   margin-top: 20px;
 }
 .practice-question {
-  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: flex-start;
 }
 .nav-btns {
   text-align: center;
