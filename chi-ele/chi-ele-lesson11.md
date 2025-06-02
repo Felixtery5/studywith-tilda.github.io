@@ -37,6 +37,20 @@ permalink: /chi-ele/chi-ele-lesson11/
 <!-- 生词区 -->
 <div class="lesson-section" id="vocab">
   <div class="vocab-card" style="display:block">
+    <!-- 填写文化体验内容 -->
+    <div class="practice-question" style="text-align: center;">
+      <video controls style="display: block; margin: 10px auto; max-width: 555px;">
+        <source src="/chi-ele/lesson11/vocab-tea.mp4" type="video/mp4">
+        您的浏览器不支持HTML5视频
+      </video>
+    </div>
+    <!-- 翻页按钮 -->
+    <div class="nav-btns" style="text-align: center; margin-top: 15px;">
+      <button onclick="switchCard('vocab', -1)">BACK</button>
+      <button onclick="switchCard('vocab', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card" style="display:none">
     <!-- 词汇图片，居中 -->
     <div class="nav-btns" style="text-align: center;">
       <img 
@@ -1016,6 +1030,19 @@ permalink: /chi-ele/chi-ele-lesson11/
 
 <!-- 语言点 -->
 <div class="lesson-section" id="grammar" style="display:none">
+  <div class="vocab-card" style="display:block">
+    <!-- 填写文化体验内容 -->
+    <div class="practice-question" style="text-align: center;">
+      <video controls style="display: block; margin: 10px auto; max-width: 555px;">
+        <source src="/chi-ele/lesson11/grammar-tea.mp4" type="video/mp4">
+        您的浏览器不支持HTML5视频
+      </video>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('grammar', -1)">BACK</button>
+      <button onclick="switchCard('grammar', 1)">NEXT</button>
+    </div>
+  </div>
   <!-- 跟……一样 -->
   <div class="vocab-card" style="display:block">
     <div class="practice-question" style="text-align: center;">
