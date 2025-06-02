@@ -1942,3 +1942,11 @@ function updateStatus(message, type = 'info') {
   margin-top: 10px;
 }
 </style>
+
+<script>
+    function playAudio(audioId) {
+        const audio = document.getElementById(audioId);
+        audio.currentTime = 0; // 从头播放
+        audio.play();
+    }
+</script>
