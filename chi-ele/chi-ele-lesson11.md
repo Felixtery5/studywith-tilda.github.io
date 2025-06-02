@@ -1764,7 +1764,7 @@ document.querySelectorAll('.answer-select').forEach(select => {
   background: #a3d0ff;
 }
 
-/* 下拉菜单默认隐藏 */
+/* 下拉菜单默认隐藏
 .lesson-nav .nav-select {
   display: none;
   padding: 6px 12px;
@@ -1772,17 +1772,8 @@ document.querySelectorAll('.answer-select').forEach(select => {
   border: 1px solid #cce4ff;
   background: #cce4ff;
   cursor: pointer;
-}
+} */
 
-/* 小屏幕下的切换 */
-@media (max-width: 768px) {
-  .lesson-nav .nav-items {
-    display: none;                   /* 隐藏按钮 */
-  }
-  .lesson-nav .nav-select {
-    display: inline-block;           /* 显示下拉 */
-  }
-}
 
 .vocab-card {
   border: 2px solid #073642;
