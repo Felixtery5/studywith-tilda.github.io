@@ -1332,6 +1332,29 @@ permalink: /chi-ele/chi-ele-lesson11/
   <div class="vocab-card practice-card" style="display:block">
     <p>句子跟读：</p>
     <div class="practice-question" style="text-align: center;">
+        <!-- 图片 + 可点击区域 -->
+        <img src="/chi-ele/lesson11/kewen/V1-Script1.png" alt="picture" width="500" usemap="#sentence-map">
+        <map name="sentence-map">
+            <!-- 定义可点击区域（坐标需要根据图片调整） -->
+            <area shape="rect" coords="26,29,1406,250" alt="晚上" onclick="playAudio('audio1')">
+            <area shape="rect" coords="23,310,2032,527" alt="那我们一起去出去玩吧" onclick="playAudio('audio2')">
+            <area shape="rect" coords="22,574,776,822" alt="我不会游泳" onclick="playAudio('audio3')">
+            <area shape="rect" coords="22,874,1501,1142" alt="我跟她一样也不会游泳" onclick="playAudio('audio4')">
+        </map>
+        <!-- 隐藏的音频元素（用于JS控制播放） -->
+        <audio id="audio1" src="/chi-ele/lesson11/kewen/1Wanshang.m4a"></audio>
+        <audio id="audio2" src="/chi-ele/lesson11/kewen/2NaWomenYiqiquChuWanBA.m4a"></audio>
+        <audio id="audio3" src="/chi-ele/lesson11/kewen/3WoBuHuiYouyong.m4a"></audio>
+        <audio id="audio4" src="/chi-ele/lesson11/kewen/4WoGenTaYiyangYeBuHuiYouyong.m4a"></audio>
+    </div>
+    <div class="nav-btns">
+        <button onclick="switchCard('listening', -1)">BACK</button>
+        <button onclick="switchCard('listening', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:block">
+    <p>句子跟读：</p>
+    <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/kewen/V1-Script2.png" alt="picture" width="500">
       <audio controls style="display: block; margin: 10px auto;">
         <source src="/chi-ele/lesson11/kewen/5TaiQiaolem4a.m4a" type="audio/mp4">
