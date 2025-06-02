@@ -18,15 +18,15 @@ permalink: /chi-ele/chi-ele-lesson11/
   <select class="nav-select" onchange="selectSection(this.value)">
     <option value="">语言点</option>
     <option value="grammar">语言点学习</option>
-    <option value="practice2">语言点-练习1</option>
-    <option value="practice2">语言点-练习2</option>
-    <option value="practice2">语言点-练习3</option>
+    <option value="practice-gram1">语言点-练习1</option>
+    <option value="practice-gram2">语言点-练习2</option>
+    <option value="practice-gram3">语言点-练习3</option>
   </select>
   <select class="nav-select" onchange="selectSection(this.value)">
     <option value="">视听说</option>
     <option value="listening">视听说学习</option>
-    <option value="practice3">视听说-练习1</option>
-    <option value="practice3">视听说-练习2</option>
+    <option value="practice-lis1">视听说-练习1</option>
+    <option value="practice-lis2">视听说-练习2</option>
   </select>
   <select class="nav-select" onchange="selectSection(this.value)">
     <option value="">文化体验</option>
@@ -1111,7 +1111,7 @@ permalink: /chi-ele/chi-ele-lesson11/
 
 <!-- 练习2 -->
 <!-- 跟……一样 -->
-<div class="lesson-section" id="practice2" style="display:none">
+<div class="lesson-section" id="practice-gram1" style="display:none">
   <div class="vocab-card practice-card" style="display:block">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
@@ -1128,8 +1128,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <span class="feedback"></span>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice-gram1', -1)">BACK</button>
+      <button onclick="switchCard('practice-gram1', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1138,8 +1138,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-Q1A1.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice-gram1', -1)">BACK</button>
+      <button onclick="switchCard('practice-gram1', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1158,8 +1158,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <span class="feedback"></span>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice-gram1', -1)">BACK</button>
+      <button onclick="switchCard('practice-gram1', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1168,8 +1168,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-Q2A2.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice-gram1', -1)">BACK</button>
+      <button onclick="switchCard('practice-gram1', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1188,8 +1188,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <span class="feedback"></span>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice-gram1', -1)">BACK</button>
+      <button onclick="switchCard('practice-gram1', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1198,19 +1198,21 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang-Q3A3.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice-gram1', -1)">BACK</button>
+      <button onclick="switchCard('practice-gram1', 1)">NEXT</button>
     </div>
   </div>
-  <!-- 又……又…… -->
+</div>
+<!-- 又……又…… -->
+<div class="lesson-section" id="practice-gram2" style="display:none">
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q1.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice-gram2', -1)">BACK</button>
+      <button onclick="switchCard('practice-gram2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1219,8 +1221,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q1A1.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice-gram2', -1)">BACK</button>
+      <button onclick="switchCard('practice-gram2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1239,8 +1241,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <span class="feedback"></span>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice-gram2', -1)">BACK</button>
+      <button onclick="switchCard('practice-gram2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1249,8 +1251,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q2A2.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice-gram2', -1)">BACK</button>
+      <button onclick="switchCard('practice-gram2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1269,8 +1271,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <span class="feedback"></span>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice-gram2', -1)">BACK</button>
+      <button onclick="switchCard('practice-gram2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card practice-card" style="display:none">
@@ -1279,10 +1281,12 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q3A3.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
+      <button onclick="switchCard('practice-gram2', -1)">BACK</button>
+      <button onclick="switchCard('practice-gram2', 1)">NEXT</button>
     </div>
   </div>
+</div>
+<div class="lesson-section" id="practice-gram3" style="display:none">
   <div class="vocab-card practice-card" style="display:none">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
@@ -1306,10 +1310,6 @@ permalink: /chi-ele/chi-ele-lesson11/
       </div>
       <!-- Status Display -->
       <div id="recordingStatus" style="margin-top:10px; min-height:20px;"></div>
-    </div>
-    <div class="nav-btns">
-      <button onclick="switchCard('practice2', -1)">BACK</button>
-      <button onclick="switchCard('practice2', 1)">NEXT</button>
     </div>
   </div>
 </div>
@@ -1348,6 +1348,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <button onclick="switchCard('listening', 1)">NEXT</button>
     </div>
   </div>
+</div>
+<div class="lesson-section" id="practice-lis1" style="display:none">
   <!--
   <div class="vocab-card practice-card" style="display:block">
     <p>句子跟读：</p>
@@ -1367,8 +1369,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       </audio>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('listening', -1)">BACK</button>
-      <button onclick="switchCard('listening', 1)">NEXT</button>
+      <button onclick="switchCard('practice-lis1', -1)">BACK</button>
+      <button onclick="switchCard('practice-lis1', 1)">NEXT</button>
     </div>
   </div>
   -->
@@ -1391,8 +1393,8 @@ permalink: /chi-ele/chi-ele-lesson11/
         <audio id="audio4" src="/chi-ele/lesson11/kewen/4WoGenTaYiyangYeBuHuiYouyong.m4a"></audio>
     </div>
     <div class="nav-btns">
-        <button onclick="switchCard('listening', -1)">BACK</button>
-        <button onclick="switchCard('listening', 1)">NEXT</button>
+        <button onclick="switchCard('practice-lis1', -1)">BACK</button>
+        <button onclick="switchCard('practice-lis1', 1)">NEXT</button>
     </div>
   </div>
   <!--
@@ -1411,8 +1413,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       </audio>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('listening', -1)">BACK</button>
-      <button onclick="switchCard('listening', 1)">NEXT</button>
+      <button onclick="switchCard('practice-lis1', -1)">BACK</button>
+      <button onclick="switchCard('practice-lis1', 1)">NEXT</button>
     </div>
   </div>
   -->
@@ -1435,8 +1437,8 @@ permalink: /chi-ele/chi-ele-lesson11/
         <audio id="audio8" src="/chi-ele/lesson11/kewen/8NaMingTianQuDaLanQiuBA.m4a"></audio>
     </div>
     <div class="nav-btns">
-        <button onclick="switchCard('listening', -1)">BACK</button>
-        <button onclick="switchCard('listening', 1)">NEXT</button>
+        <button onclick="switchCard('practice-lis1', -1)">BACK</button>
+        <button onclick="switchCard('practice-lis1', 1)">NEXT</button>
     </div>
   </div>
   <!--
@@ -1458,8 +1460,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       </audio>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('listening', -1)">BACK</button>
-      <button onclick="switchCard('listening', 1)">NEXT</button>
+      <button onclick="switchCard('practice-lis1', -1)">BACK</button>
+      <button onclick="switchCard('practice-lis1', 1)">NEXT</button>
     </div>
   </div>
   -->
@@ -1482,10 +1484,12 @@ permalink: /chi-ele/chi-ele-lesson11/
         <audio id="audio12" src="/chi-ele/lesson11/kewen/12YouGongXiangDanChe.m4a"></audio>
     </div>
     <div class="nav-btns">
-        <button onclick="switchCard('listening', -1)">BACK</button>
-        <button onclick="switchCard('listening', 1)">NEXT</button>
+        <button onclick="switchCard('practice-lis1', -1)">BACK</button>
+        <button onclick="switchCard('practice-lis1', 1)">NEXT</button>
     </div>
   </div>
+</div>
+<div class="lesson-section" id="practice-lis2" style="display:none">
   <div class="vocab-card" style="display:none">
     <!-- 视听说 内容 -->
     <div class="practice-question" style="text-align: center;">
@@ -1495,21 +1499,17 @@ permalink: /chi-ele/chi-ele-lesson11/
       </video>
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('listening', -1)">BACK</button>
-      <button onclick="switchCard('listening', 1)">NEXT</button>
+      <button onclick="switchCard('practice-lis2', -1)">BACK</button>
+      <button onclick="switchCard('practice-lis2', 1)">NEXT</button>
     </div>
   </div>
-</div>
-
-<!-- 练习3 -->
-<div class="lesson-section" id="practice3" style="display:none">
   <div class="vocab-card" style="display:block">
     <p>根据视频内容选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/kewen/V1Q1.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice3', 1)">SUBMIT</button>
+      <button onclick="switchCard('practice-lis2', 1)">SUBMIT</button>
     </div>
   </div>
   <div class="vocab-card" style="display:none">
@@ -1518,8 +1518,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/kewen/V1Q1A.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice3', -1)">BACK</button>
-      <button onclick="switchCard('practice3', 1)">NEXT</button>
+      <button onclick="switchCard('practice-lis2', -1)">BACK</button>
+      <button onclick="switchCard('practice-lis2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card" style="display:block">
@@ -1528,7 +1528,7 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/kewen/V1Q2.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice3', 1)">SUBMIT</button>
+      <button onclick="switchCard('practice-lis2', 1)">SUBMIT</button>
     </div>
   </div>
   <div class="vocab-card" style="display:none">
@@ -1537,8 +1537,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/kewen/V1Q2A.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice3', -1)">BACK</button>
-      <button onclick="switchCard('practice3', 1)">NEXT</button>
+      <button onclick="switchCard('practice-lis2', -1)">BACK</button>
+      <button onclick="switchCard('practice-lis2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card" style="display:block">
@@ -1547,7 +1547,7 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/kewen/V1Q3.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice3', 1)">SUBMIT</button>
+      <button onclick="switchCard('practice-lis2', 1)">SUBMIT</button>
     </div>
   </div>
   <div class="vocab-card" style="display:none">
@@ -1556,8 +1556,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/kewen/V1Q3A.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice3', -1)">BACK</button>
-      <button onclick="switchCard('practice3', 1)">NEXT</button>
+      <button onclick="switchCard('practice-lis2', -1)">BACK</button>
+      <button onclick="switchCard('practice-lis2', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card" style="display:block">
@@ -1566,7 +1566,7 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/kewen/V1Q4.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice3', 1)">SUBMIT</button>
+      <button onclick="switchCard('practice-lis2', 1)">SUBMIT</button>
     </div>
   </div>
   <div class="vocab-card" style="display:none">
@@ -1575,8 +1575,8 @@ permalink: /chi-ele/chi-ele-lesson11/
       <img src="/chi-ele/lesson11/kewen/V1Q4A.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice3', -1)">BACK</button>
-      <button onclick="switchCard('practice3', 1)">NEXT</button>
+      <button onclick="switchCard('practice-lis2', -1)">BACK</button>
+      <button onclick="switchCard('practice-lis2', 1)">NEXT</button>
     </div>
   </div>
 </div>
