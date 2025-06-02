@@ -367,7 +367,7 @@ permalink: /chi-ele/chi-ele-lesson11/
 </div>
 
 <!-- 练习1 -->
-<div class="lesson-section" id="practice-vocab1" style="display:none">
+<div class="lesson-section" id="practice-vocab1" style="display:block">
   <div class="vocab-card practice-card" style="display:block">
     <p>根据图片和音频填写正确的生词：</p>
     <div class="practice-question" style="text-align: center;">
@@ -623,9 +623,9 @@ permalink: /chi-ele/chi-ele-lesson11/
   </div>
 </div>
 <!-- 练习2 -->
-<div class="lesson-section" id="practice-vocab2" style="display:none">
+<div class="lesson-section" id="practice-vocab2" style="display:block">
   <!-- 生词练习2 -->
-  <div class="vocab-card practice-card" style="display:none">
+  <div class="vocab-card practice-card" style="display:block">
     <p>请选择正确的图片或单词：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/vocab/prac1/P1-Q1-A5.jpg" alt="picture" width="75" height="125" >
@@ -881,8 +881,8 @@ permalink: /chi-ele/chi-ele-lesson11/
   </div>
 </div>
 <!-- 生词练习3 -->
-<div class="lesson-section" id="practice-vocab3" style="display:none">
-  <div class="vocab-card practice-card" style="display:none">
+<div class="lesson-section" id="practice-vocab3" style="display:block">
+  <div class="vocab-card practice-card" style="display:block">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/vocab/prac2/Q1.png" alt="picture" width="500">
@@ -1007,9 +1007,9 @@ permalink: /chi-ele/chi-ele-lesson11/
 </div>
 
 <!-- 生词练习3 -->
-<div class="lesson-section" id="practice-vocab4" style="display:none">
+<div class="lesson-section" id="practice-vocab4" style="display:block">
   <!-- 生词对话 -->
-  <div class="vocab-card practice-card" style="display:none">
+  <div class="vocab-card practice-card" style="display:block">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/vocab/ShengCiDuiHua.png" alt="picture" width="500">
@@ -1041,7 +1041,7 @@ permalink: /chi-ele/chi-ele-lesson11/
 </div>
 
 <!-- 语言点 -->
-<div class="lesson-section" id="grammar" style="display:none">
+<div class="lesson-section" id="grammar" style="display:block">
   <div class="vocab-card" style="display:block">
     <!-- 填写文化体验内容 -->
     <div class="practice-question" style="text-align: center;">
@@ -1056,7 +1056,7 @@ permalink: /chi-ele/chi-ele-lesson11/
     </div>
   </div>
   <!-- 跟……一样 -->
-  <div class="vocab-card" style="display:block">
+  <div class="vocab-card" style="display:none">
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/grammar/yiyang/1GenYiYang.png" alt="picture" width="150">
     </div>
@@ -1081,7 +1081,7 @@ permalink: /chi-ele/chi-ele-lesson11/
     </div>
   </div>
   <!-- 又……又…… -->
-  <div class="vocab-card" style="display:block">
+  <div class="vocab-card" style="display:none">
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You.png" alt="picture" width="150">
     </div>
@@ -1109,7 +1109,7 @@ permalink: /chi-ele/chi-ele-lesson11/
 
 <!-- 练习 -->
 <!-- 跟……一样 -->
-<div class="lesson-section" id="practice-gram1" style="display:none">
+<div class="lesson-section" id="practice-gram1" style="display:block">
   <div class="vocab-card practice-card" style="display:block">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
@@ -1201,9 +1201,9 @@ permalink: /chi-ele/chi-ele-lesson11/
     </div>
   </div>
 </div>
-<div class="lesson-section" id="practice-gram2" style="display:none">
+<div class="lesson-section" id="practice-gram2" style="display:block">
   <!-- 又……又…… -->
-  <div class="vocab-card practice-card" style="display:none">
+  <div class="vocab-card practice-card" style="display:block">
     <p>根据图片和音频选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/grammar/youyou/2You.You-Q1.png" alt="picture" width="500">
@@ -1313,7 +1313,7 @@ permalink: /chi-ele/chi-ele-lesson11/
 </div>
 
 <!-- 视听说 -->
-<div class="lesson-section" id="listening" style="display:none">
+<div class="lesson-section" id="listening" style="display:block">
   <div class="vocab-card practice-card" style="display:block">
     <p>看视频之前，请先阅读下列问题：</p>
     <div class="practice-question" style="text-align: center;">
