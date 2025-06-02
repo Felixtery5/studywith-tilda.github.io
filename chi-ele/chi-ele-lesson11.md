@@ -9,11 +9,11 @@ permalink: /chi-ele/chi-ele-lesson11/
   <!-- 按钮容器 -->
   <div class="nav-items">
     <button onclick="showSection('vocab')">生词</button>
-    <button onclick="showSection('practice1')">练习</button>
+    <button onclick="showSection('practice1')">生词-练习</button>
     <button onclick="showSection('grammar')">语言点</button>
-    <button onclick="showSection('practice2')">练习</button>
+    <button onclick="showSection('practice2')">语言点-练习</button>
     <button onclick="showSection('listening')">视听说</button>
-    <button onclick="showSection('practice3')">练习</button>
+    <button onclick="showSection('practice3')">视听说-练习</button>
     <button onclick="showSection('culture')">文化体验</button>
     <button onclick="showSection('homework')">作业</button>
   </div>
@@ -21,11 +21,11 @@ permalink: /chi-ele/chi-ele-lesson11/
   <select class="nav-select" onchange="selectSection(this.value)">
     <option value="">Choose</option>
     <option value="vocab">生词</option>
-    <option value="practice1">生词练习</option>
+    <option value="practice1">生词-练习</option>
     <option value="grammar">语言点</option>
-    <option value="practice2">语言点练习</option>
+    <option value="practice2">语言点-练习</option>
     <option value="listening">视听说</option>
-    <option value="practice3">视听说练习</option>
+    <option value="practice3">视听说-练习</option>
     <option value="culture">文化体验</option>
     <option value="homework">作业</option>
   </select>
