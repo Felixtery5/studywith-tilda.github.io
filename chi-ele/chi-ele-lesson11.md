@@ -29,21 +29,11 @@ permalink: /chi-ele/chi-ele-lesson11/
     <option value="practice3">视听说-练习2</option>
   </select>
   <select class="nav-select" onchange="selectSection(this.value)">
+    <option value="">文化体验</option>
     <option value="culture">文化体验</option>
   </select>
   <select class="nav-select" onchange="selectSection(this.value)">
-    <option value="homework">作业</option>
-  </select>
-  <!-- 小屏下显示的下拉菜单 -->
-  <select class="nav-select" onchange="selectSection(this.value)">
-    <option value="">Choose</option>
-    <option value="vocab">生词</option>
-    <option value="practice1">生词-练习</option>
-    <option value="grammar">语言点</option>
-    <option value="practice2">语言点-练习</option>
-    <option value="listening">视听说</option>
-    <option value="practice3">视听说-练习</option>
-    <option value="culture">文化体验</option>
+    <option value="">作业</option>
     <option value="homework">作业</option>
   </select>
 </div>
