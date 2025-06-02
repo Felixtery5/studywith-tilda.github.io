@@ -660,7 +660,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="1">
           <span class="question-number">1.</span>
           <select class="answer-select">
-            <option value="">-- Option --</option>
+            <option value="">Option</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -679,7 +679,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="2">
           <span class="question-number">2.</span>
           <select class="answer-select">
-            <option value="">-- Option --</option>
+            <option value="">Option</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -698,7 +698,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="3">
           <span class="question-number">3.</span>
           <select class="answer-select">
-            <option value="">-- Option --</option>
+            <option value="">Option</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -717,7 +717,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="4">
           <span class="question-number">4.</span>
           <select class="answer-select">
-            <option value="">-- Option --</option>
+            <option value="">Option</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -736,7 +736,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="5">
           <span class="question-number">5.</span>
           <select class="answer-select">
-            <option value="">-- Option --</option>
+            <option value="">Option</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -755,7 +755,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="6">
           <span class="question-number">6.</span>
           <select class="answer-select">
-            <option value="">-- Option --</option>
+            <option value="">Option</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -774,7 +774,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="7">
           <span class="question-number">7.</span>
           <select class="answer-select">
-            <option value="">-- Option --</option>
+            <option value="">Option</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -793,7 +793,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="8">
           <span class="question-number">8.</span>
           <select class="answer-select">
-            <option value="">-- Option --</option>
+            <option value="">Option</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -812,7 +812,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="9">
           <span class="question-number">9.</span>
           <select class="answer-select">
-            <option value="">-- Option --</option>
+            <option value="">Option</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -831,7 +831,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="10">
           <span class="question-number">10.</span>
           <select class="answer-select">
-            <option value="">-- Option --</option>
+            <option value="">Option</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -850,7 +850,7 @@ permalink: /chi-ele/chi-ele-lesson11/
         <div class="question" data-qid="11">
           <span class="question-number">11.</span>
           <select class="answer-select">
-            <option value="">-- Option --</option>
+            <option value="">Option</option>
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
@@ -1490,19 +1490,6 @@ permalink: /chi-ele/chi-ele-lesson11/
   </div>
 </div>
 <div class="lesson-section" id="practice-lis2" style="display:none">
-  <div class="vocab-card" style="display:none">
-    <!-- 视听说 内容 -->
-    <div class="practice-question" style="text-align: center;">
-      <video controls style="display: block; margin: 10px auto; max-width: 555px;">
-        <source src="/chi-ele/lesson11/kewen/V1.mp4" type="video/mp4">
-        您的浏览器不支持HTML5视频
-      </video>
-    </div>
-    <div class="nav-btns">
-      <button onclick="switchCard('practice-lis2', -1)">BACK</button>
-      <button onclick="switchCard('practice-lis2', 1)">NEXT</button>
-    </div>
-  </div>
   <div class="vocab-card" style="display:block">
     <p>根据视频内容选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
