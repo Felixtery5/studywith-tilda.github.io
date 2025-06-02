@@ -1336,10 +1336,10 @@ permalink: /chi-ele/chi-ele-lesson11/
         <img src="/chi-ele/lesson11/kewen/V1-Script1.png" alt="picture" width="500" usemap="#sentence-map">
         <map name="sentence-map">
             <!-- 定义可点击区域（坐标需要根据图片调整） -->
-            <area shape="rect" coords="26,29,1406,250" alt="晚上" onclick="playAudio('audio1')">
-            <area shape="rect" coords="23,310,2032,527" alt="那我们一起去出去玩吧" onclick="playAudio('audio2')">
-            <area shape="rect" coords="22,574,776,822" alt="我不会游泳" onclick="playAudio('audio3')">
-            <area shape="rect" coords="22,874,1501,1142" alt="我跟她一样也不会游泳" onclick="playAudio('audio4')">
+            <area shape="rect" coords="6,7,350,62" alt="晚上" onclick="playAudio('audio1')">
+            <area shape="rect" coords="6,77,506,131" alt="那我们一起去出去玩吧" onclick="playAudio('audio2')">
+            <area shape="rect" coords="5,143,193,205" alt="我不会游泳" onclick="playAudio('audio3')">
+            <area shape="rect" coords="5,218,374,284" alt="我跟她一样也不会游泳" onclick="playAudio('audio4')">
         </map>
         <!-- 隐藏的音频元素（用于JS控制播放） -->
         <audio id="audio1" src="/chi-ele/lesson11/kewen/1Wanshang.m4a"></audio>
