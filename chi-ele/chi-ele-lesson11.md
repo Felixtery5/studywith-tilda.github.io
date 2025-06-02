@@ -1244,15 +1244,109 @@ permalink: /chi-ele/chi-ele-lesson11/
 
 <!-- 视听说 -->
 <div class="lesson-section" id="listening" style="display:none">
-  <div class="vocab-card" style="display:block">
-    <!-- 填写视听说内容 -->
+  <div class="vocab-card practice-card" style="display:block">
+    <p>看视频之前，请先阅读下列问题：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1Q1.png" alt="picture" width="500">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1Q2.png" alt="picture" width="500">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1Q3.png" alt="picture" width="500">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1Q4.png" alt="picture" width="500">
+    </div>
     <div class="nav-btns">
       <button onclick="switchCard('listening', -1)">BACK</button>
       <button onclick="switchCard('listening', 1)">NEXT</button>
     </div>
   </div>
   <div class="vocab-card" style="display:none">
-    <!-- 视听说 第2张卡 -->
+    <!-- 视听说 内容 -->
+    <div class="practice-question" style="text-align: center;">
+      <video controls style="display: block; margin: 10px auto; max-width: 555px;">
+        <source src="/chi-ele/lesson11/kewen/V1.mp4" type="video/mp4">
+        您的浏览器不支持HTML5视频
+      </video>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('listening', -1)">BACK</button>
+      <button onclick="switchCard('listening', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:block">
+    <p>句子跟读：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1-Script1.png" alt="picture" width="500">
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/kewen/1Wanshang.m4a" type="audio/mp4">
+      </audio>
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/kewen/2NaWomenYiqiquChuWanBA.m4a" type="audio/mp4">
+      </audio>
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/kewen/3WoBuHuiYouyong.m4a" type="audio/mp4">
+      </audio>
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/kewen/4WoGenTaYiyangYeBuHuiYouyong.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('listening', -1)">BACK</button>
+      <button onclick="switchCard('listening', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:block">
+    <p>句子跟读：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1-Script2.png" alt="picture" width="500">
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/kewen/5TaiQiaolem4a.m4a" type="audio/mp4">
+      </audio>
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/kewen/6WoXihuanDaLanqiu.m4a" type="audio/mp4">
+      </audio>
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/kewen/8NaMingTianQuDaLanQiuBA.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('listening', -1)">BACK</button>
+      <button onclick="switchCard('listening', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card practice-card" style="display:block">
+    <p>句子跟读：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1-Script3.png" alt="picture" width="500">
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/kewen/9ZenmeQuNe.m4a" type="audio/mp4">
+      </audio>
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/kewen/10QiZixingcheQuBa.m4a" type="audio/mp4">
+      </audio>
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/kewen/11KeshiWoMeiyouZixingc.m4a" type="audio/mp4">
+      </audio>
+      <audio controls style="display: block; margin: 10px auto;">
+        <source src="/chi-ele/lesson11/kewen/12YouGongXiangDanChe.m4a" type="audio/mp4">
+      </audio>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('listening', -1)">BACK</button>
+      <button onclick="switchCard('listening', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card" style="display:none">
+    <!-- 视听说 内容 -->
+    <div class="practice-question" style="text-align: center;">
+      <video controls style="display: block; margin: 10px auto; max-width: 555px;">
+        <source src="/chi-ele/lesson11/kewen/V1.mp4" type="video/mp4">
+        您的浏览器不支持HTML5视频
+      </video>
+    </div>
     <div class="nav-btns">
       <button onclick="switchCard('listening', -1)">BACK</button>
       <button onclick="switchCard('listening', 1)">NEXT</button>
@@ -1263,20 +1357,26 @@ permalink: /chi-ele/chi-ele-lesson11/
 <!-- 练习3 -->
 <div class="lesson-section" id="practice3" style="display:none">
   <div class="vocab-card" style="display:block">
-    <!-- 填写练习3内容 -->
+    <p>根据视频内容选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1Q1.png" alt="picture" width="500">
+    </div>
     <div class="nav-btns">
-      <button onclick="switchCard('practice3', -1)">BACK</button>
-      <button onclick="switchCard('practice3', 1)">NEXT</button>
+      <button onclick="switchCard('practice3', 1)">SUBMIT</button>
     </div>
   </div>
   <div class="vocab-card" style="display:none">
-    <!-- 练习3 第2张卡 -->
+    <p>根据视频内容选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1Q1A.png" alt="picture" width="500">
+    </div>
     <div class="nav-btns">
       <button onclick="switchCard('practice3', -1)">BACK</button>
       <button onclick="switchCard('practice3', 1)">NEXT</button>
     </div>
   </div>
 </div>
+
 
 <!-- 文化体验 -->
 <div class="lesson-section" id="culture" style="display:none">
