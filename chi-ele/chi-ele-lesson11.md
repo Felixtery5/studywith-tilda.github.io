@@ -981,6 +981,37 @@ permalink: /chi-ele/chi-ele-lesson11/
       <button onclick="switchCard('practice1', 1)">NEXT</button>
     </div>
   </div>
+  
+  <!-- 生词对话 -->
+  <div class="vocab-card practice-card" style="display:none">
+    <p>根据图片和音频选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/vocab/ShengCiDuiHua.png" alt="picture" width="500">
+    </div>
+    <div class="practice-question" style="text-align: center;">
+      <!-- Recording Options -->
+      <div class="recording-options">
+        <button id="startVideoBtn">🎥 New Video</button>
+        <button id="startAudioBtn">🎤 New Record</button>
+      </div>
+      <!-- Preview Elements -->
+      <video id="videoPreview" controls style="display:none; max-width:500px; margin:10px auto;"></video>
+      <audio id="audioPreview" controls style="display:none; margin:10px auto;"></audio>
+      <!-- Recording Controls -->
+      <div id="recordingControls" style="display:none;">
+        <button id="stopRecordingBtn">⏹ Stop</button>
+        <button id="playRecordingBtn" style="display:none;">▶️ Play</button>
+        <button id="sendRecordingBtn">✉️ Send</button>
+        <button id="retryRecordingBtn">🔄 Redo</button>
+      </div>
+      <!-- Status Display -->
+      <div id="recordingStatus" style="margin-top:10px; min-height:20px;"></div>
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice1', -1)">BACK</button>
+      <button onclick="switchCard('practice1', 1)">NEXT</button>
+    </div>
+  </div>
 </div>
 
 <!-- 语言点 -->
@@ -1369,6 +1400,63 @@ permalink: /chi-ele/chi-ele-lesson11/
     <p>根据视频内容选择正确答案：</p>
     <div class="practice-question" style="text-align: center;">
       <img src="/chi-ele/lesson11/kewen/V1Q1A.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice3', -1)">BACK</button>
+      <button onclick="switchCard('practice3', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card" style="display:block">
+    <p>根据视频内容选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1Q2.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice3', 1)">SUBMIT</button>
+    </div>
+  </div>
+  <div class="vocab-card" style="display:none">
+    <p>根据视频内容选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1Q2A.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice3', -1)">BACK</button>
+      <button onclick="switchCard('practice3', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card" style="display:block">
+    <p>根据视频内容选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1Q3.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice3', 1)">SUBMIT</button>
+    </div>
+  </div>
+  <div class="vocab-card" style="display:none">
+    <p>根据视频内容选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1Q3A.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice3', -1)">BACK</button>
+      <button onclick="switchCard('practice3', 1)">NEXT</button>
+    </div>
+  </div>
+  <div class="vocab-card" style="display:block">
+    <p>根据视频内容选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1Q4.png" alt="picture" width="500">
+    </div>
+    <div class="nav-btns">
+      <button onclick="switchCard('practice3', 1)">SUBMIT</button>
+    </div>
+  </div>
+  <div class="vocab-card" style="display:none">
+    <p>根据视频内容选择正确答案：</p>
+    <div class="practice-question" style="text-align: center;">
+      <img src="/chi-ele/lesson11/kewen/V1Q4A.png" alt="picture" width="500">
     </div>
     <div class="nav-btns">
       <button onclick="switchCard('practice3', -1)">BACK</button>
