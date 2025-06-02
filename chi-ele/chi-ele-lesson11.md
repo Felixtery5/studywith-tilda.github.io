@@ -7,7 +7,7 @@ permalink: /chi-ele/chi-ele-lesson11/
 
 <div class="lesson-nav">
   <!-- 按钮容器 -->
-  <select class="nav-select" onchange="selectSection(this.value)">
+  <select class="nav-select">
     <option value="">生词</option>
     <option value="vocab">生词</option>
     <option value="practice-vocab1">生词-练习1</option>
@@ -15,7 +15,7 @@ permalink: /chi-ele/chi-ele-lesson11/
     <option value="practice-vocab3">生词-练习3</option>
     <option value="practice-vocab4">生词-练习4</option>
   </select>
-  <select class="nav-select" onchange="selectSection(this.value)">
+  <select class="nav-select">
     <option value="">语言点</option>
     <option value="grammar">又……又……</option>
     <option value="grammar">跟……一样……</option>
@@ -23,30 +23,18 @@ permalink: /chi-ele/chi-ele-lesson11/
     <option value="practice2">语言点-练习2</option>
     <option value="practice2">语言点-练习3</option>
   </select>
-  <select class="nav-select" onchange="selectSection(this.value)">
+  <select class="nav-select">
     <option value="">视听说</option>
     <option value="listening">视听说</option>
     <option value="practice3">视听说-练习1</option>
     <option value="practice3">视听说-练习2</option>
   </select>
-  <select class="nav-select" onchange="selectSection(this.value)">
+  <select class="nav-select">
     <option value="">文化体验</option>
     <option value="culture">文化体验</option>
   </select>
-  <select class="nav-select" onchange="selectSection(this.value)">
+  <select class="nav-select">
     <option value="">作业</option>
-    <option value="homework">作业</option>
-  </select>
-  <!-- 小屏下显示的下拉菜单 -->
-  <select class="nav-select" onchange="selectSection(this.value)">
-    <option value="">Choose</option>
-    <option value="vocab">生词</option>
-    <option value="practice1">生词-练习</option>
-    <option value="grammar">语言点</option>
-    <option value="practice2">语言点-练习</option>
-    <option value="listening">视听说</option>
-    <option value="practice3">视听说-练习</option>
-    <option value="culture">文化体验</option>
     <option value="homework">作业</option>
   </select>
 </div>
@@ -1850,6 +1838,7 @@ input {
 }
 </style>
 
+<!--
 <script>
   // 原有的 showSection, switchCard, checkAnswer …
 
@@ -1859,6 +1848,7 @@ input {
     document.querySelector('.nav-select').value = "";
   }
 </script>
+-->
 
 
 
