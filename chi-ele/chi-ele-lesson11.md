@@ -8,7 +8,7 @@ permalink: /chi-ele/chi-ele-lesson11/
 <div class="lesson-nav">
   <!-- 按钮容器 -->
   <select class="nav-select" onchange="selectSection(this.value)">
-    <option value=""> </option>
+    <option value="">生词</option>
     <option value="vocab">生词学习</option>
     <option value="practice-vocab1">生词-练习1</option>
     <option value="practice-vocab2">生词-练习2</option>
@@ -16,24 +16,24 @@ permalink: /chi-ele/chi-ele-lesson11/
     <option value="practice-vocab4">生词-练习4</option>
   </select>
   <select class="nav-select" onchange="selectSection(this.value)">
-    <option value=""> </option>
+    <option value="">语言点</option>
     <option value="grammar">语言点学习</option>
     <option value="practice-gram1">语言点-练习1</option>
     <option value="practice-gram2">语言点-练习2</option>
     <option value="practice-gram3">语言点-练习3</option>
   </select>
   <select class="nav-select" onchange="selectSection(this.value)">
-    <option value=""> </option>
+    <option value="">视听说</option>
     <option value="listening">视听说学习</option>
     <option value="practice-lis1">视听说-练习1</option>
     <option value="practice-lis2">视听说-练习2</option>
   </select>
   <select class="nav-select" onchange="selectSection(this.value)">
-    <option value=""> </option>
+    <option value="">文化体验</option>
     <option value="culture">文化体验</option>
   </select>
   <select class="nav-select" onchange="selectSection(this.value)">
-    <option value=""> </option>
+    <option value="">作业</option>
     <option value="homework">作业</option>
   </select>
 </div>
